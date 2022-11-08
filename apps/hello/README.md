@@ -21,7 +21,7 @@ yarn install
 Open RPC server on a termial
 
 ```sh
-yarn server
+yarn dev
 ```
 
 Then send a message to RPC from CLI

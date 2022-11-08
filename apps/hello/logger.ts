@@ -8,6 +8,7 @@ const logger = {
   warn,
   error,
   grpcLogger: diary("grpc"),
+  apiLogger: diary("express-api"),
 };
 
 export default logger;

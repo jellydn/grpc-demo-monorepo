@@ -16,7 +16,7 @@ const packageDefinition = protoLoader.loadSync(PROTO_PATH, {
 });
 
 const proto = grpc.loadPackageDefinition(
-  packageDefinition
+  packageDefinition,
 ) as unknown as ProtoGrpcType;
 
 /**
@@ -43,7 +43,7 @@ function main() {
     () => {
       logger.info("ready - started server o 0.0.0.0:50051");
       server.start();
-    }
+    },
   );
 }
 
