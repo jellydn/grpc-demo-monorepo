@@ -15,13 +15,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^3.4.0",
-    "concurrently": "^7.5.0",
+    "@trivago/prettier-plugin-sort-imports": "3.4.0",
+    "concurrently": "7.5.0",
     "eslint-config-custom": "*",
-    "husky": "^8.0.2",
-    "nano-staged": "^0.8.0",
+    "husky": "8.0.2",
+    "nano-staged": "0.8.0",
     "prettier": "latest",
-    "sort-package-json": "^2.1.0",
+    "sort-package-json": "2.1.0",
     "turbo": "latest"
   },
   "packageManager": "yarn@1.22.19",
