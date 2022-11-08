@@ -1,27 +1,12 @@
 import express from "express";
 import * as grpc from "@grpc/grpc-js";
-import * as protoLoader from "@grpc/proto-loader";
+
+import { proto } from "./grpc";
 import logger from "./logger";
-// support types generator, refer https://github.com/grpc/grpc-node/blob/master/packages/proto-loader/README.md#example-usage
-import { ProtoGrpcType } from "./protos/hello";
-
-const PROTO_PATH = __dirname + "/protos/hello.proto";
-
-const packageDefinition = protoLoader.loadSync(PROTO_PATH, {
-  keepCase: true,
-  longs: String,
-  enums: String,
-  defaults: true,
-  oneofs: true,
-});
-
-const proto = grpc.loadPackageDefinition(
-  packageDefinition,
-) as unknown as ProtoGrpcType;
 
 const client = new proto.helloworld.Greeter(
   "0.0.0.0:50051",
-  grpc.credentials.createInsecure(),
+  grpc.credentials.createInsecure()
 );
 const app = express();
 app.disable("x-powered-by");
@@ -39,5 +24,9 @@ app.get("/", (req, res) => {
 
 const PORT = 3002;
 app.listen(PORT, () => {
-  logger.info("Client Server listening to port http://0.0.0.0:%d", PORT);
+  logger.info(
+    "Client Server listening to port %d, url: http://localhost:%d",
+    PORT,
+    PORT
+  );
 });
