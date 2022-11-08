@@ -26,7 +26,7 @@ function main() {
     "0.0.0.0:50051",
     grpc.ServerCredentials.createInsecure(),
     () => {
-      logger.info("ready - started server o 0.0.0.0:50051");
+      logger.info("Grpc Server ready - started server on 0.0.0.0:50051");
       server.start();
     }
   );

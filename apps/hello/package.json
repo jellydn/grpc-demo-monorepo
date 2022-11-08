@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "concurrently \"npm:dev-api\" \"npm:dev-rpc\"",
-    "dev-rpc": "npx tsx server.ts",
-    "dev-api": "npx tsx app.ts",
+    "dev-rpc": "npx tsx watch --clear-screen=false server.ts",
+    "dev-api": "npx tsx watch --clear-screen=false app.ts",
     "cli": "npx tsx client.ts",
     "proto:types": "$(npm bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
   },
