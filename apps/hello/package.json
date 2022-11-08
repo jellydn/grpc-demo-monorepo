@@ -1,0 +1,19 @@
+{
+  "name": "hello",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsx server.ts",
+    "server": "npx tsx watch server.ts",
+    "cli": "npx tsx client.ts",
+    "proto:types": "$(npm bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.7.3",
+    "@grpc/proto-loader": "^0.7.3",
+    "cac": "^6.7.14",
+    "diary": "^0.4.3",
+    "express": "^5.0.0-beta.1"
+  }
+}
