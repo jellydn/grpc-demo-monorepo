@@ -1,4 +1,5 @@
 import * as grpc from "@grpc/grpc-js";
+
 import { proto } from "./grpc";
 import logger from "./logger";
 import { GreeterHandlers } from "./protos/helloworld/Greeter";

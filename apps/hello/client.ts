@@ -1,8 +1,8 @@
-import { cac } from "cac";
 import * as grpc from "@grpc/grpc-js";
+import { cac } from "cac";
 
-import logger from "./logger";
 import { proto } from "./grpc";
+import logger from "./logger";
 
 const cli = cac();
 

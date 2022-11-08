@@ -1,5 +1,5 @@
-import express from "express";
 import * as grpc from "@grpc/grpc-js";
+import express from "express";
 
 import { proto } from "./grpc";
 import logger from "./logger";

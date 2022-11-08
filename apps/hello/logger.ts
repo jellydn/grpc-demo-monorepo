@@ -1,4 +1,4 @@
-import { diary, enable, info, warn, error } from "diary";
+import { diary, enable, error, info, warn } from "diary";
 
 // 1️⃣ Choose to enable the emission of logs, or not.
 enable("*");
