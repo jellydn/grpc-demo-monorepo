@@ -1,6 +1,5 @@
 # Welcome to hello world 👋
 
-[![Version](https://img.shields.io/npm/v/hello world.svg)](https://www.npmjs.com/package/hello world)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
