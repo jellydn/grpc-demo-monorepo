@@ -1,13 +1,17 @@
 import * as grpc from "@grpc/grpc-js";
 import express from "express";
 
-import { proto } from "./grpc";
+import { createGrpcClient } from "./connect-node-extra/create-grpc-client";
 import logger from "./logger";
+import { Greeter } from "./types/protos/hello_connectweb";
 
-const client = new proto.helloworld.Greeter(
-  "0.0.0.0:50051",
-  grpc.credentials.createInsecure()
-);
+const client = createGrpcClient(Greeter, {
+  address: "0.0.0.0:50052",
+  channelCredentials: grpc.ChannelCredentials.createInsecure(),
+  clientOptions: {},
+  binaryOptions: {},
+});
+
 const app = express();
 app.disable("x-powered-by");
 
@@ -22,7 +26,7 @@ app.get("/", (req, res) => {
   });
 });
 
-const PORT = 3001;
+const PORT = 3002;
 app.listen(PORT, () => {
   logger.info(
     "Client Server listening to port %d, url: http://localhost:%d",

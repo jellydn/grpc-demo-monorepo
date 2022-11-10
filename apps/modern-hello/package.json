@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "modern-hello",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -8,16 +8,19 @@
     "dev-rpc": "npx tsx watch --clear-screen=false server.ts",
     "dev-api": "npx tsx watch --clear-screen=false app.ts",
     "cli": "npx tsx client.ts",
-    "proto:types": "$(npm bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
+    "proto:types": "buf generate"
   },
   "dependencies": {
+    "@bufbuild/connect-web": "0.3.1",
+    "@bufbuild/protobuf": "0.2.1",
     "@grpc/grpc-js": "1.7.3",
-    "@grpc/proto-loader": "0.7.3",
     "cac": "6.7.14",
     "diary": "0.4.3",
     "express": "5.0.0-beta.1"
   },
   "devDependencies": {
+    "@bufbuild/protoc-gen-connect-web": "0.3.1",
+    "@bufbuild/protoc-gen-es": "0.2.1",
     "@types/express": "^4.17.14"
   }
 }

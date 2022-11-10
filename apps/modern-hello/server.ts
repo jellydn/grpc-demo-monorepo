@@ -1,13 +1,13 @@
 import * as grpc from "@grpc/grpc-js";
 
-import { proto } from "./grpc";
+import { addGrpcService } from "./connect-node-extra/add-grpc-service";
 import logger from "./logger";
-import { GreeterHandlers } from "./protos/helloworld/Greeter";
+import { Greeter } from "./types/protos/hello_connectweb";
 
 /**
  * Implements the SayHello RPC method.
  */
-const greeterHandler: GreeterHandlers = {
+const greeterHandler = {
   SayHello: (call, callback) => {
     logger.grpcLogger.info("receive message", call.request);
     callback(null, { message: "Hello " + call.request.name });
@@ -20,10 +20,11 @@ const greeterHandler: GreeterHandlers = {
  */
 function main() {
   const server = new grpc.Server();
-  server.addService(proto.helloworld.Greeter.service, greeterHandler);
+  // @ts-expect-error connect-node is ready yet, workaround for now, refer https://github.com/bufbuild/protobuf-es/issues/252
+  addGrpcService(server, Greeter, greeterHandler);
   logger.grpcLogger.info("binding greeterHandler to server");
   server.bindAsync(
-    "0.0.0.0:50051",
+    "0.0.0.0:50052",
     grpc.ServerCredentials.createInsecure(),
     (err) => {
       if (err) {
@@ -31,7 +32,7 @@ function main() {
         return;
       }
       server.start();
-      logger.info("Grpc Server ready - started server on 0.0.0.0:50051");
+      logger.info("Grpc Server ready - started server on 0.0.0.0:50052");
     }
   );
 }
