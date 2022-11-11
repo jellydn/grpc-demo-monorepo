@@ -20,6 +20,7 @@ yarn install
 
 - [protobuf-es](https://github.com/bufbuild/protobuf-es)
 - [connect-web](https://github.com/bufbuild/connect-web)
+- [connect-go](https://github.com/bufbuild/connect-go)
 - [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js)
 - [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader)
 
