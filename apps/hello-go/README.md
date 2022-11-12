@@ -1,3 +1,5 @@
+# Welcome to hello Connect service in Go
+
 ## Getting Started
 
 Run the development server:

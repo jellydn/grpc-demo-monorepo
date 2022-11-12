@@ -5,16 +5,7 @@
 
 > Demo RPC app with NodeJS
 
-This is the simple implementation of hello world RPC from [grpc nodejs example](https://github.com/grpc/grpc/blob/master/examples/node/dynamic_codegen/README.md) but has some improvements over the existing:
-
-- Support for type generation
-- [Typescript support](https://github.com/grpc/grpc-node/blob/master/packages/proto-loader/README.md#example-usage)
-
-## Install
-
-```sh
-yarn install
-```
+Connect-Node is on the roadmap so this implmentation is base on this Github [issue](https://github.com/bufbuild/protobuf-es/issues/252#issuecomment-1282549160)
 
 ## Usage
 
@@ -44,4 +35,5 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by
+[readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

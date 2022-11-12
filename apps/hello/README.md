@@ -10,12 +10,6 @@ This is the simple implementation of hello world RPC from [grpc nodejs example](
 - Support for type generation
 - [Typescript support](https://github.com/grpc/grpc-node/blob/master/packages/proto-loader/README.md#example-usage)
 
-## Install
-
-```sh
-yarn install
-```
-
 ## Usage
 
 Open RPC server on a termial

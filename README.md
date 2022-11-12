@@ -5,8 +5,6 @@
 
 > Demo some concepts for Grpc with NodeJS
 
-![https://gyazo.com/e80cc51056ad95f0cf51869d3d5b3d20.gif](https://gyazo.com/e80cc51056ad95f0cf51869d3d5b3d20.gif)
-
 ## Prerequisites
 
 - node >=14.0.0
@@ -17,6 +15,26 @@
 ```sh
 yarn install
 ```
+
+## Usage
+
+```sh
+yarn dev
+```
+
+## Applications
+
+- hello: simple Typescript implementation of hello world RPC from grpc nodejs
+  [example](https://github.com/grpc/grpc/blob/master/examples/node/dynamic_codegen/README.md).
+- hello-go: small
+  [Connect service](https://connect.build/docs/go/getting-started) with Go.
+- modern-hello: the rewrite version of hello app with
+  [protobuf-es](https://github.com/bufbuild/protobuf-es)
+- web: a hello nextjs 13 app with 2 Grpc services
+
+![https://gyazo.com/e80cc51056ad95f0cf51869d3d5b3d20.gif](https://gyazo.com/e80cc51056ad95f0cf51869d3d5b3d20.gif)
+
+More detail of each readme file on each application.
 
 ## Resources
 
