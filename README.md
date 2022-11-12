@@ -5,6 +5,8 @@
 
 > Demo some concepts for Grpc with NodeJS
 
+![https://gyazo.com/e80cc51056ad95f0cf51869d3d5b3d20.gif](https://gyazo.com/e80cc51056ad95f0cf51869d3d5b3d20.gif)
+
 ## Prerequisites
 
 - node >=14.0.0
@@ -18,6 +20,7 @@ yarn install
 
 ## Resources
 
+- [grpc](https://grpc.io/)
 - [protobuf-es](https://github.com/bufbuild/protobuf-es)
 - [connect-web](https://github.com/bufbuild/connect-web)
 - [connect-go](https://github.com/bufbuild/connect-go)
