@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "ui";
+import toast from "react-hot-toast";
 
 import {
   createConnectTransport,
@@ -30,10 +31,9 @@ export default function HelloConnectApp() {
             const result = await client.greet({
               name: inputValue,
             });
-            console.log(result);
-            alert(JSON.stringify(result))
+            toast.success(JSON.stringify(result));
           } catch (error) {
-            alert(JSON.stringify(error));
+            toast.error(JSON.stringify(error));
           }
         }}
       >
