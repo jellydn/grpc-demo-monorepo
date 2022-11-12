@@ -6,3 +6,12 @@ plugins:
   - name: connect-go
     out: gen
     opt: paths=source_relative
+
+  # This will invoke protoc-gen-es and write output to types
+  - name: es
+    out: types
+    opt: target=ts
+  # This will invoke protoc-gen-connect-web
+  - name: connect-web
+    out: types
+    opt: target=ts

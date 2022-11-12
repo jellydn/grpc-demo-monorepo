@@ -8,4 +8,7 @@ require (
 	google.golang.org/protobuf v1.28.1
 )
 
-require golang.org/x/text v0.4.0 // indirect
+require (
+	github.com/rs/cors v1.8.2 // indirect
+	golang.org/x/text v0.4.0 // indirect
+)

@@ -7,6 +7,7 @@ import (
 	"net/http"
 
 	"github.com/bufbuild/connect-go"
+	"github.com/rs/cors"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
@@ -33,10 +34,12 @@ func main() {
 	mux := http.NewServeMux()
 	path, handler := greetv1connect.NewGreetServiceHandler(greeter)
 	mux.Handle(path, handler)
+
 	log.Println("Ready - Server is running at localhost:8080")
 	http.ListenAndServe(
 		"0.0.0.0:8080",
 		// Use h2c so we can serve HTTP/2 without TLS.
-		h2c.NewHandler(mux, &http2.Server{}),
+		// cors.Default() setup the middleware with default options being
+		cors.Default().Handler(h2c.NewHandler(mux, &http2.Server{})),
 	)
 }

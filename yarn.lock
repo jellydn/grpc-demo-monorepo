@@ -263,7 +263,7 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@bufbuild/connect-web@0.3.1":
+"@bufbuild/connect-web@0.3.1", "@bufbuild/connect-web@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@bufbuild/connect-web/-/connect-web-0.3.1.tgz#0ee91b32000bc0deb39ad17e892bc3031d2ca47e"
   integrity sha512-JLx/NPwUbiVDyKBK1sKLejcs6a3C3jvi3K9BaPjEu5mtfOl5F53Z1y4LK/Q2akIbcp9hT0ukpErUTK8WOoCqqQ==

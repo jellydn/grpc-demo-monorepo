@@ -1,0 +1,16 @@
+{
+  "name": "hello-go",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"npm:dev-rpc\"",
+    "dev-rpc": "go run ./cmd/server/main.go",
+    "cli": "go run ./cmd/client/main.go",
+    "proto:types": "buf generate"
+  },
+  "devDependencies": {
+    "@bufbuild/connect-web": "0.3.1"
+  }
+}
