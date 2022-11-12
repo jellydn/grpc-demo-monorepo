@@ -1,3 +1,4 @@
+// Usage: go run ./cmd/client/main.go
 package main
 
 import (
@@ -12,22 +13,25 @@ import (
 )
 
 func main() {
+	// Uncomment this block if you want to to use Connect protocol intead of Gprc
 	// Usage 1: use connect protocol
 	// client := greetv1connect.NewGreetServiceClient(
 	// 	http.DefaultClient,
 	// 	"http://localhost:8080",
 	// )
 
-	// user grpc protocol
+	// Usage 2: use grpc protocol
 	client := greetv1connect.NewGreetServiceClient(
 		http.DefaultClient,
 		"http://localhost:8080",
 		connect.WithGRPC(),
 	)
+
 	res, err := client.Greet(
 		context.Background(),
 		connect.NewRequest(&greetv1.GreetRequest{Name: "IT Man Channel"}),
 	)
+
 	if err != nil {
 		log.Println(err)
 		return

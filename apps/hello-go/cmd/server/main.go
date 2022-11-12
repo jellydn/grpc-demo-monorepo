@@ -1,3 +1,4 @@
+// Usage: go run ./cmd/server/main.go
 package main
 
 import (
