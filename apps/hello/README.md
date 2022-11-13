@@ -5,7 +5,7 @@
 
 > Demo RPC app with NodeJS
 
-This is the simple implementation of hello world RPC from [grpc nodejs example](https://github.com/grpc/grpc/blob/master/examples/node/dynamic_codegen/README.md) but has some improvements over the existing:
+This is the simple implementation of hello world RPC from [gRPC nodejs example](https://github.com/grpc/grpc/blob/master/examples/node/dynamic_codegen/README.md) but has some improvements over the existing:
 
 - Support for type generation
 - [Typescript support](https://github.com/grpc/grpc-node/blob/master/packages/proto-loader/README.md#example-usage)

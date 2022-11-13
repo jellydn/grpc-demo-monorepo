@@ -20,7 +20,7 @@ func main() {
 	// 	"http://localhost:8080",
 	// )
 
-	// Usage 2: use grpc protocol
+	// Usage 2: use gRPC protocol
 	client := greetv1connect.NewGreetServiceClient(
 		http.DefaultClient,
 		"http://localhost:8080",

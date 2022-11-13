@@ -1,4 +1,4 @@
-# Welcome to GRPC-Demo-Apps 👋
+# Welcome to gRPC-Demo-Apps 👋
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
@@ -24,7 +24,7 @@ yarn dev
 
 ## Applications
 
-- hello: simple Typescript implementation of hello world RPC from grpc nodejs
+- hello: simple Typescript implementation of hello world RPC from gRPC nodejs
   [example](https://github.com/grpc/grpc/blob/master/examples/node/dynamic_codegen/README.md).
 
 ![https://gyazo.com/23244180cb415bbc57bebbf4e9599a74.gif](https://gyazo.com/23244180cb415bbc57bebbf4e9599a74.gif)
@@ -59,6 +59,12 @@ More detail of each readme file on each application.
 - [Building a secure API with gRPC](https://snyk.io/blog/building-a-secure-api-with-grpc/)
 - [Connect: A better gRPC](https://buf.build/blog/connect-a-better-grpc)
 - [Protobuf-ES: The Protocol Buffers TypeScript/JavaScript runtime we all deserve](https://buf.build/blog/protobuf-es-the-protocol-buffers-typescript-javascript-runtime-we-all-deserve)
+
+### How does gPRC Work?
+
+Thank you for the excellent image from [bytebytego](https://blog.bytebytego.com).
+
+![grpc](grpc.jpeg)
 
 ## Author
 
