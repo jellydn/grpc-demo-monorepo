@@ -10,7 +10,7 @@
 - node >=14.0.0
 - [buf](https://github.com/bufbuild/buf):A new way of working with Protocol
   Buffers.
-- [/grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC:
+- [grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC:
   Command-line tool for interacting with gRPC servers
 
 ## Install
@@ -36,6 +36,8 @@ yarn dev
   [Connect service](https://connect.build/docs/go/getting-started) with Go.
 
 ![https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif](https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif)
+
+- hello-twirp: hello service written in Go with [twirp(https://twitchtv.github.io/twirp/).
 
 - modern-hello: the rewrite version of hello app with
   [protobuf-es](https://github.com/bufbuild/protobuf-es)
