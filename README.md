@@ -8,8 +8,10 @@
 ## Prerequisites
 
 - node >=14.0.0
-- [buf](https://github.com/bufbuild/buf):A new way of working with Protocol Buffers.
-- [/grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+- [buf](https://github.com/bufbuild/buf):A new way of working with Protocol
+  Buffers.
+- [/grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC:
+  Command-line tool for interacting with gRPC servers
 
 ## Install
 
@@ -48,27 +50,21 @@ More detail of each readme file on each application.
 
 ## Resources
 
-- [grpc](https://grpc.io/): A high performance, open source universal RPC
-  framework
-- [protobuf-es](https://github.com/bufbuild/protobuf-es):Protocol Buffers for
-  ECMAScript.
-- [connect-web](https://github.com/bufbuild/connect-web): Simple, reliable,
-  interoperable. A better gRPC-Web.
-- [connect-go](https://github.com/bufbuild/connect-go): Simple, reliable,
-  interoperable. A better gRPC.
-- [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js):
-  Pure JavaScript gRPC Client
-- [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader):
-  A utility package for loading .proto files for use with gRPC, using the latest
-  Protobuf.js package.
-- [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web
-  implementation for Golang and TypeScript
+- [grpc](https://grpc.io/): A high performance, open source universal RPC framework.
+- [twirp](https://github.com/twitchtv/twirp): A simple RPC framework with protobuf service definitions.
+- [protobuf-es](https://github.com/bufbuild/protobuf-es):Protocol Buffers for ECMAScript.
+- [connect-web](https://github.com/bufbuild/connect-web): Simple, reliable, interoperable. A better gRPC-Web.
+- [connect-go](https://github.com/bufbuild/connect-go): Simple, reliable, interoperable. A better gRPC.
+- [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js): Pure JavaScript gRPC Client
+- [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader): A utility package for loading .proto files for use with gRPC, using the latest Protobuf.js package.
+- [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web implementation for Golang and TypeScript
 
 ## Useful References
 
 - [Building a secure API with gRPC](https://snyk.io/blog/building-a-secure-api-with-grpc/)
 - [Connect: A better gRPC](https://buf.build/blog/connect-a-better-grpc)
 - [Protobuf-ES: The Protocol Buffers TypeScript/JavaScript runtime we all deserve](https://buf.build/blog/protobuf-es-the-protocol-buffers-typescript-javascript-runtime-we-all-deserve)
+- [Twirp: a sweet new RPC framework for Go](https://blog.twitch.tv/en/2018/01/16/twirp-a-sweet-new-rpc-framework-for-go-5f2febbf35f/)
 
 ### How does gPRC Work?
 
