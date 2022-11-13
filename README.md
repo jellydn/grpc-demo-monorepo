@@ -47,12 +47,21 @@ More detail of each readme file on each application.
 
 ## Resources
 
-- [grpc](https://grpc.io/)
-- [protobuf-es](https://github.com/bufbuild/protobuf-es)
-- [connect-web](https://github.com/bufbuild/connect-web)
-- [connect-go](https://github.com/bufbuild/connect-go)
-- [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js)
-- [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader)
+- [grpc](https://grpc.io/): A high performance, open source universal RPC
+  framework
+- [protobuf-es](https://github.com/bufbuild/protobuf-es):Protocol Buffers for
+  ECMAScript.
+- [connect-web](https://github.com/bufbuild/connect-web): Simple, reliable,
+  interoperable. A better gRPC-Web.
+- [connect-go](https://github.com/bufbuild/connect-go): Simple, reliable,
+  interoperable. A better gRPC.
+- [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js):
+  Pure JavaScript gRPC Client
+- [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader):
+  A utility package for loading .proto files for use with gRPC, using the latest
+  Protobuf.js package.
+- [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web
+  implementation for Golang and TypeScript
 
 ## Useful References
 
@@ -62,7 +71,8 @@ More detail of each readme file on each application.
 
 ### How does gPRC Work?
 
-Thank you for the excellent image from [bytebytego](https://blog.bytebytego.com).
+Thank you for the excellent image from
+[bytebytego](https://blog.bytebytego.com).
 
 ![grpc](grpc.jpeg)
 
@@ -75,6 +85,8 @@ Thank you for the excellent image from [bytebytego](https://blog.bytebytego.com)
 - Github: [@jellydn](https://github.com/jellydn)
 
 ## Show your support
+
+[![Stargazers repo roster for @jellydn/grpc-demo-monorepo](https://reporoster.com/stars/jellydn/grpc-demo-monorepo)](https://github.com/jellydn/grpc-demo-monorepo/stargazers)
 
 Give a ⭐️ if this project helped you!
 
