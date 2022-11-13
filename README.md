@@ -8,7 +8,8 @@
 ## Prerequisites
 
 - node >=14.0.0
-- [buf](https://github.com/bufbuild/buf)
+- [buf](https://github.com/bufbuild/buf):A new way of working with Protocol Buffers.
+- [/grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 
 ## Install
 
