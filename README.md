@@ -37,8 +37,9 @@ yarn dev
 
 ![https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif](https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif)
 
-- hello-twirp: hello service written in Go with
-  [twirp(https://twitchtv.github.io/twirp/).
+- hello-twirp: hello service written in Go with [twirp](https://twitchtv.github.io/twirp/).
+
+![https://gyazo.com/ba2f444ff2bc17ad25ebce84eae4ef7f.gif](https://gyazo.com/ba2f444ff2bc17ad25ebce84eae4ef7f.gid)
 
 - modern-hello: the rewrite version of hello app with
   [protobuf-es](https://github.com/bufbuild/protobuf-es)
