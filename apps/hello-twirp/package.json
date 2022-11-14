@@ -1,18 +1,12 @@
 {
-  "name": "hello-go",
+  "name": "hello-twirp",
   "version": "1.0.0",
   "main": "index.js",
-  "private": true,
-  "license": "MIT",
   "scripts": {
     "dev": "concurrently \"npm:dev-rpc\"",
     "dev-rpc": "go run ./cmd/server/main.go",
     "cli": "go run ./cmd/client/main.go",
     "proto:types": "buf generate"
   },
-  "devDependencies": {
-    "@bufbuild/protoc-gen-connect-web": "0.3.1",
-    "@bufbuild/connect-web": "0.3.1",
-    "@bufbuild/protoc-gen-es": "0.2.1"
-  }
+  "license": "MIT"
 }
