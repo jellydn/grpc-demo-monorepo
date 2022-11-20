@@ -1,0 +1,32 @@
+{
+  "nested": {
+    "helloworld": {
+      "nested": {
+        "Greeter": {
+          "methods": {
+            "SayHello": {
+              "requestType": "HelloRequest",
+              "responseType": "HelloReply"
+            }
+          }
+        },
+        "HelloRequest": {
+          "fields": {
+            "name": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        },
+        "HelloReply": {
+          "fields": {
+            "message": {
+              "type": "string",
+              "id": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

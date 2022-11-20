@@ -7,7 +7,9 @@
     "dev": "concurrently \"npm:dev-api\" \"npm:dev-rpc\"",
     "dev-rpc": "npx tsx watch --clear-screen=false server.ts",
     "dev-api": "npx tsx watch --clear-screen=false app.ts",
-    "cli": "npx tsx client.ts",
+    "cli": "npx tsx cli.ts",
+    "client": "npx tsx client.ts",
+    "proto:client": "$(npm bin)/proto-client -o gen protos/hello.proto",
     "proto:types": "$(npm bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
   },
   "dependencies": {
@@ -18,6 +20,7 @@
     "express": "5.0.0-beta.1"
   },
   "devDependencies": {
-    "@types/express": "4.17.14"
+    "@types/express": "4.17.14",
+    "proto-client": "^0.8.0"
   }
 }

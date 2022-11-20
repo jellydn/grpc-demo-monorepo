@@ -8,6 +8,7 @@
 ## Prerequisites
 
 - node >=14.0.0
+- go >= 1.19
 - [buf](https://github.com/bufbuild/buf):A new way of working with Protocol
   Buffers.
 - [grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC:
@@ -37,7 +38,8 @@ yarn dev
 
 ![https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif](https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif)
 
-- hello-twirp: hello service written in Go with [twirp](https://twitchtv.github.io/twirp/).
+- hello-twirp: hello service written in Go with
+  [twirp](https://twitchtv.github.io/twirp/).
 
 ![https://gyazo.com/ba2f444ff2bc17ad25ebce84eae4ef7f.gif](https://gyazo.com/ba2f444ff2bc17ad25ebce84eae4ef7f.gid)
 
@@ -71,6 +73,8 @@ More detail of each readme file on each application.
   Protobuf.js package.
 - [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web
   implementation for Golang and TypeScript
+- [proto-client](https://github.com/codenothing/proto-client) A
+  typed gRPC Client with static code generation
 
 ## Useful References
 
