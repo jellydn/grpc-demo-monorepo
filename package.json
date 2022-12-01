@@ -11,9 +11,10 @@
     "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "postinstall": "npx husky install",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "proto:client": "turbo run proto:client --parallel",
+    "proto:types": "turbo run proto:types --parallel"
   },
-  "dependencies": {},
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
     "concurrently": "7.6.0",
