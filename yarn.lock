@@ -2806,7 +2806,7 @@ prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-proto-client@^0.8.0:
+proto-client@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/proto-client/-/proto-client-0.8.0.tgz#6dfae86b82f9557f5f07fef2805e8395872100ac"
   integrity sha512-TtJpe/h0UJi+LjCqny6d4GPwDnK/byf75PRgl2iUR6woxhZ/zoUdOgS/s8/51F3f5eSI9QTYoBVResskb5cSNA==
