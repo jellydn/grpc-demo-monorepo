@@ -3,12 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
-> Demo some concepts for Grpc with NodeJS
+> Grpc Demo Apps with Go/NodeJS
 
 ## Prerequisites
 
 - node >=14.0.0
 - go >= 1.19
+- [protoc](https://grpc.io/docs/protoc-installation/): Protocol Buffer Compiler Installation
 - [buf](https://github.com/bufbuild/buf):A new way of working with Protocol
   Buffers.
 - [grpcurl](https://github.com/fullstorydev/grpcurl): Like cURL, but for gRPC:
@@ -18,6 +19,12 @@
 
 ```sh
 yarn install
+```
+
+## Generate code from `.proto` files
+
+```sh
+yarn proto:types
 ```
 
 ## Usage
