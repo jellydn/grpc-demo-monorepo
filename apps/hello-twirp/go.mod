@@ -1,6 +1,6 @@
 module hello-twirp
 
-go 1.19
+go 1.19.3
 
 require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
