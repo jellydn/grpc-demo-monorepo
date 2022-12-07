@@ -90,6 +90,7 @@ More detail of each readme file on each application.
 - [Connect: A better gRPC](https://buf.build/blog/connect-a-better-grpc)
 - [Protobuf-ES: The Protocol Buffers TypeScript/JavaScript runtime we all deserve](https://buf.build/blog/protobuf-es-the-protocol-buffers-typescript-javascript-runtime-we-all-deserve)
 - [Twirp: a sweet new RPC framework for Go](https://blog.twitch.tv/en/2018/01/16/twirp-a-sweet-new-rpc-framework-for-go-5f2febbf35f/)
+- [When to use gRPC vs GraphQL - Stack Overflow Blog](https://stackoverflow.blog/2022/11/28/when-to-use-grpc-vs-graphql/)
 
 ### How does gPRC Work?
 
