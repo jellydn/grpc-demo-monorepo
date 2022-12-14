@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@bufbuild/connect-web": "0.3.3",
-    "@bufbuild/protobuf": "0.4.0",
+    "@bufbuild/protobuf": "0.5.0",
     "@grpc/grpc-js": "1.8.0",
     "cac": "6.7.14",
     "diary": "0.4.3",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@bufbuild/protoc-gen-connect-web": "0.3.3",
-    "@bufbuild/protoc-gen-es": "0.4.0",
+    "@bufbuild/protoc-gen-es": "0.5.0",
     "@types/express": "4.17.15"
   }
 }
