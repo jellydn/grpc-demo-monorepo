@@ -1,6 +1,6 @@
 module hello-go
 
-go 1.19
+go 1.19.4
 
 require (
 	github.com/bufbuild/connect-go v1.4.1
