@@ -63,25 +63,16 @@ More detail of each readme file on each application.
 
 ## Resources
 
-- [grpc](https://grpc.io/): A high performance, open source universal RPC
-  framework.
-- [twirp](https://github.com/twitchtv/twirp): A simple RPC framework with
-  protobuf service definitions.
-- [protobuf-es](https://github.com/bufbuild/protobuf-es):Protocol Buffers for
-  ECMAScript.
-- [connect-web](https://github.com/bufbuild/connect-web): Simple, reliable,
-  interoperable. A better gRPC-Web.
-- [connect-go](https://github.com/bufbuild/connect-go): Simple, reliable,
-  interoperable. A better gRPC.
-- [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js):
-  Pure JavaScript gRPC Client
-- [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader):
-  A utility package for loading .proto files for use with gRPC, using the latest
-  Protobuf.js package.
-- [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web
-  implementation for Golang and TypeScript
-- [proto-client](https://github.com/codenothing/proto-client) A
-  typed gRPC Client with static code generation
+- [grpc](https://grpc.io/): A high performance, open source universal RPC framework.
+- [twirp](https://github.com/twitchtv/twirp): A simple RPC framework with protobuf service definitions.
+- [protobuf-es](https://github.com/bufbuild/protobuf-es):Protocol Buffers for ECMAScript.
+- [connect-web](https://github.com/bufbuild/connect-web): Simple, reliable, interoperable. A better gRPC-Web.
+- [connect-go](https://github.com/bufbuild/connect-go): Simple, reliable, interoperable. A better gRPC.
+- [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js): Pure JavaScript gRPC Client
+- [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader): A utility package for loading .proto files for use with gRPC, using the latest Protobuf.js package.
+- [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web implementation for Golang and TypeScript
+- [proto-client](https://github.com/codenothing/proto-client): A typed gRPC Client with static code generation
+- [deeplay-io/nice-grpc](https://github.com/deeplay-io/nice-grpc): A TypeScript gRPC library that is nice to you
 
 ## Useful References
 
