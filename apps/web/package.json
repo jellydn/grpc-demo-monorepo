@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@bufbuild/connect-web": "0.6.0",
-    "@grpc/grpc-js": "1.8.4",
-    "next": "13.1.4",
+    "@grpc/grpc-js": "1.8.5",
+    "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "2.4.0",
