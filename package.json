@@ -22,7 +22,7 @@
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "prettier": "latest",
-    "sort-package-json": "2.2.0",
+    "sort-package-json": "2.3.0",
     "turbo": "latest"
   },
   "packageManager": "yarn@1.22.19",
