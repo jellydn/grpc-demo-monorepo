@@ -1,0 +1,11 @@
+# Learn more: https://docs.buf.build/configuration/v1/buf-gen-yaml
+version: v1
+plugins:
+  # This will invoke protoc-gen-es and write output to types
+  - name: es
+    out: types
+    opt: target=ts
+  # This will invoke protoc-gen-connect-web
+  - name: connect-web
+    out: types
+    opt: target=ts
