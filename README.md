@@ -45,6 +45,10 @@ yarn dev
 
 ![https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif](https://gyazo.com/ac564703c07b4e011e6bbe7883ee021d.gif)
 
+- hello-connect: small
+  [Connect service](https://connect.build/docs/go/getting-started) with [NodeJs](https://github.com/bufbuild/connect-web/tree/main/packages/connect-node).
+  - [ ] Add record gif for the demo
+
 - hello-twirp: hello service written in Go with
   [twirp](https://twitchtv.github.io/twirp/).
 
