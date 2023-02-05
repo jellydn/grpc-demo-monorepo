@@ -9,8 +9,8 @@
     "dev-api": "npx tsx watch --clear-screen=false app.ts",
     "cli": "npx tsx cli.ts",
     "client": "npx tsx client.ts",
-    "proto:client": "$(npm bin)/proto-client -o gen protos/hello.proto",
-    "proto:types": "$(npm bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
+    "proto:client": "$(yarn bin)/proto-client -o gen protos/hello.proto",
+    "proto:types": "$(yarn bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
   },
   "dependencies": {
     "@grpc/grpc-js": "1.8.7",
