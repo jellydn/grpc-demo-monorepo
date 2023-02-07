@@ -666,10 +666,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
   integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
 
-"@types/node@18.11.19":
-  version "18.11.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.19.tgz#35e26df9ec441ab99d73e99e9aca82935eea216d"
-  integrity sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==
+"@types/node@18.13.0":
+  version "18.13.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.13.0.tgz#0400d1e6ce87e9d3032c19eb6c58205b0d3f7850"
+  integrity sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -2930,10 +2930,10 @@ prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-proto-client@0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/proto-client/-/proto-client-0.8.0.tgz#6dfae86b82f9557f5f07fef2805e8395872100ac"
-  integrity sha512-TtJpe/h0UJi+LjCqny6d4GPwDnK/byf75PRgl2iUR6woxhZ/zoUdOgS/s8/51F3f5eSI9QTYoBVResskb5cSNA==
+proto-client@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/proto-client/-/proto-client-0.9.0.tgz#78a02327d1f0dfb2fd4de515ba9bb394e38bf4ef"
+  integrity sha512-G9X8ybBwtXT6aSc0MeyEu8NHxCLDkDPjd5Y6P8WS+TyMXa+XHteIzAJFC4STDx6uuuUoRD2tqYycpM4DQAstYQ==
   dependencies:
     "@grpc/grpc-js" "^1.7.3"
     "@types/cli-color" "^2.0.2"
