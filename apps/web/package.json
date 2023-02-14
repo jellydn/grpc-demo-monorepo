@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@bufbuild/connect-web": "0.7.0",
-    "@grpc/grpc-js": "1.8.7",
+    "@grpc/grpc-js": "1.8.8",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -24,9 +24,9 @@
   "devDependencies": {
     "@babel/core": "7.20.12",
     "@types/node": "18.13.0",
-    "@types/react": "18.0.27",
+    "@types/react": "18.0.28",
     "@types/react-dom": "18.0.10",
-    "eslint": "8.33.0",
+    "eslint": "8.34.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "4.9.5"
