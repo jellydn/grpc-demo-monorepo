@@ -267,35 +267,35 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@bufbuild/connect-node@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@bufbuild/connect-node/-/connect-node-0.8.0.tgz#45155c12a22e82a89447d134f1bdc91246469f3f"
-  integrity sha512-H5MhSMQTpBaPFCnEp8TmiL9ntRkE31ya1IO6v5/wp22ikmBn6agt+w0gXNYiY56nyv6cMehj2wwbaFeDcfwLKw==
+"@bufbuild/connect-node@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@bufbuild/connect-node/-/connect-node-0.8.1.tgz#db371506a9c54cac78b0b73b25dd531d86dbe45a"
+  integrity sha512-yIdXWekNaKDBFVWY6S6L0js6Szh2fhunmVxxCd5taOL4KekO5joIfuA9eLuunTDlp1ie0fPPm7Dc5KlxWgOn0Q==
   dependencies:
-    "@bufbuild/connect" "0.8.0"
+    "@bufbuild/connect" "0.8.1"
     headers-polyfill "^3.1.2"
 
-"@bufbuild/connect-web@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@bufbuild/connect-web/-/connect-web-0.8.0.tgz#f97b2593f8e5893d10b34fe0a73068bb25d651e9"
-  integrity sha512-JQc0GguZB4uzHvycRW8BlCgclNsYsDiuOroTDoLDbu+RI8YJSCmxG2cchJoo7RxjmFeW9cKPieQx6jvDdJmEcg==
+"@bufbuild/connect-web@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@bufbuild/connect-web/-/connect-web-0.8.1.tgz#217f706ef774bc63371bcdee1cf3ef043ecb6705"
+  integrity sha512-gUaFFxnnDd/LjOST2AXn/YZLLJqRjkWQhufjx6B4rHqoIdGCtkoYMTxjFHVO7AqPkszBClxlaGzMf+7jBPmf9A==
   dependencies:
-    "@bufbuild/connect" "0.8.0"
+    "@bufbuild/connect" "0.8.1"
 
-"@bufbuild/connect@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@bufbuild/connect/-/connect-0.8.0.tgz#c8885f46a94f3a694f8bed4a3df56adecfabe18d"
-  integrity sha512-yW5otSAdxM7Bmx4OLhqoPxJxhx26zkFlzAKiu+TatGPz/e5Gvsf/O8gaGG5IxuVWD5bromzMJIjdZXnB71eKGg==
+"@bufbuild/connect@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@bufbuild/connect/-/connect-0.8.1.tgz#71afa90bf56bb833a7f3e2a492e6f9f83c2bebeb"
+  integrity sha512-cQA0jstYcLknJecTE7KbU4ePNBqiCNviBEcUCbFLve3x+vcSmtoH6jb8z39MeBqFy42ZoWhTGGc3RNCeOx2QUA==
 
 "@bufbuild/protobuf@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.0.0.tgz#b25c045f8554f92c3723d5bb28e3a2538662f51b"
   integrity sha512-oH3jHBrZ6to8Qf4zLg7O8KqSY42kQZNBRXJRMp5uSi0mqE4L8NbyMnZHeOsbXmTb0xpptRyH11LfS+KeVhXzAA==
 
-"@bufbuild/protoc-gen-connect-web@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-web/-/protoc-gen-connect-web-0.8.0.tgz#3f016be6a3fcc97cc2e4880261fbe803f2e5decc"
-  integrity sha512-Is6z61vAmLfr/wR27cSf7mLp9cqVztnKCwwWRgaCJj3I3SZIM+O9I3ZegCVcRvvwYoExX9d13DmT8XvU0TUNlg==
+"@bufbuild/protoc-gen-connect-web@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-web/-/protoc-gen-connect-web-0.8.1.tgz#d13ebf9552d3f14a32269aae631215376c6407b5"
+  integrity sha512-JyK2pf6l1yr9FWQFlK6QbM6CLfbgfMi/2lgwkGG8aVNfQkV/9efNT4eFk8S53YXqpn+g+Xvwya7M04bi2rdm6g==
   dependencies:
     "@bufbuild/protoplugin" "^1.0.0"
 
