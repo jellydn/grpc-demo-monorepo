@@ -11,7 +11,7 @@
   "dependencies": {
     "@bufbuild/connect-web": "0.8.1",
     "@grpc/grpc-js": "1.8.11",
-    "next": "13.2.1",
+    "next": "13.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "2.4.0",
