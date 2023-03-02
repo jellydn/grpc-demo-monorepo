@@ -292,6 +292,11 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.0.0.tgz#b25c045f8554f92c3723d5bb28e3a2538662f51b"
   integrity sha512-oH3jHBrZ6to8Qf4zLg7O8KqSY42kQZNBRXJRMp5uSi0mqE4L8NbyMnZHeOsbXmTb0xpptRyH11LfS+KeVhXzAA==
 
+"@bufbuild/protobuf@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.1.0.tgz#249fc602d0ca78564d6666bbffcbbaef9aa905ff"
+  integrity sha512-NYqSqOp+7u37sfQugoJaIWbnQdUTwB0UtfNhIeN71rr/xY8upO9zIvM865Ju7ws/21xbu05RUdC1gNhSggmCYg==
+
 "@bufbuild/protoc-gen-connect-web@0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-web/-/protoc-gen-connect-web-0.8.1.tgz#d13ebf9552d3f14a32269aae631215376c6407b5"
@@ -299,14 +304,23 @@
   dependencies:
     "@bufbuild/protoplugin" "^1.0.0"
 
-"@bufbuild/protoc-gen-es@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.0.0.tgz#9afa22d6296a741f8b512a5fcf0846d948ce7f65"
-  integrity sha512-3NZzjw2hbeO7JFUZ70W4UOkaMyOC6hJfJP4uDczyWWTXoCr2TPDfPyLE2U8DBpKufneLS1YBhFJPPv4QvJkiPA==
+"@bufbuild/protoc-gen-es@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.1.0.tgz#df4c48fb90ca31117d4d1816269daa88fedbfe51"
+  integrity sha512-2xASwRsd1pAh/tzqlH7L+HRrlfreuSMRGr0xbZGcSQI5kTixgLLPSaNwankQplwcWTyGA59hY3cx6o78RsvlcQ==
   dependencies:
-    "@bufbuild/protoplugin" "1.0.0"
+    "@bufbuild/protoplugin" "1.1.0"
 
-"@bufbuild/protoplugin@1.0.0", "@bufbuild/protoplugin@^1.0.0":
+"@bufbuild/protoplugin@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.1.0.tgz#62fc002e4a642cb76319004ef7188ec88f399a0e"
+  integrity sha512-yDBBdJn6/qmVu3A5K18Hif4WYLCd+1Ps89DTvhzBG/Og5EjbaPlkf/pZYLJQuKvJlDnRMfm0iF3Gl2NjC9G3yg==
+  dependencies:
+    "@bufbuild/protobuf" "1.1.0"
+    "@typescript/vfs" "^1.4.0"
+    typescript "4.5.2"
+
+"@bufbuild/protoplugin@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.0.0.tgz#58708ccbb2710be7d4a69607e2b039ac62cd5665"
   integrity sha512-L7z2/4MgP36QGEAh8T4OYrdMRv//LAw4gGpL8D3cziE21uP6FLzLKpIxJ4aJBoUyHyS53tpZMpb0djbxYDecFA==
@@ -703,10 +717,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.13.0.tgz#0400d1e6ce87e9d3032c19eb6c58205b0d3f7850"
   integrity sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==
 
-"@types/node@18.14.2":
-  version "18.14.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.2.tgz#c076ed1d7b6095078ad3cf21dfeea951842778b1"
-  integrity sha512-1uEQxww3DaghA0RxqHx0O0ppVlo43pJhepY51OxuQIKHpjbnYLA7vcdwioNPzIqmC2u3I/dmylcqjlh0e7AyUA==
+"@types/node@18.14.4":
+  version "18.14.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.4.tgz#0e64ec0b35a772e1e3d849f9a0ff61782d0cb647"
+  integrity sha512-VhCw7I7qO2X49+jaKcAUwi3rR+hbxT5VcYF493+Z5kMLI0DL568b7JI4IDJaxWFH0D/xwmGJNoXisyX+w7GH/g==
 
 "@types/prop-types@*":
   version "15.7.5"
