@@ -267,25 +267,25 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@bufbuild/connect-node@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@bufbuild/connect-node/-/connect-node-0.8.2.tgz#ea5f49b098497a6ad1bbc0442eae9d408bcc508a"
-  integrity sha512-xn//oxVWgIqBlbkeWICsFd/JzmgC86pV0Rw3EeD00/isANfbJWDV6/RF0YUahEusMahEhIzrL3Jtt9KCTqc12A==
+"@bufbuild/connect-node@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@bufbuild/connect-node/-/connect-node-0.8.3.tgz#c7ffeec4d46c47802cf140825294019540e42ded"
+  integrity sha512-ldOHnWThAy5fT+20ZI74yALJ1z5DpyQ2UArQlMLXkkNIyBoEna3YfPxqoTqGBU4IdfFckwrQXDT+/KE4arJMIA==
   dependencies:
-    "@bufbuild/connect" "0.8.2"
+    "@bufbuild/connect" "0.8.3"
     headers-polyfill "^3.1.2"
 
-"@bufbuild/connect-web@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@bufbuild/connect-web/-/connect-web-0.8.2.tgz#712300469ade5988723489645666a25963ae22c6"
-  integrity sha512-lxkPE1A5JTcKoWJhPRWIWZS6eJUfA5aukzSCiN964htBLiHTFpk9PL5/ZNji+hx754OuBxlqFVkC2KczLflpeA==
+"@bufbuild/connect-web@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@bufbuild/connect-web/-/connect-web-0.8.3.tgz#0a67d2b505a202a658de920ddb9dc519ce8951ed"
+  integrity sha512-36FZ8L6e/oNUglIclhLu3mHceTXRHp/QB/Pnphzhc0SYkZFFyjGfRJfm+qq89dFns8krchtP8sTyqV8G7EaJEQ==
   dependencies:
-    "@bufbuild/connect" "0.8.2"
+    "@bufbuild/connect" "0.8.3"
 
-"@bufbuild/connect@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@bufbuild/connect/-/connect-0.8.2.tgz#59845c9249bbcb63663800c85d57b34293a026be"
-  integrity sha512-128V5E3TTtDRDjIRjz6poVSZdbj3UgL+2r+bCTGNqXeWxeiw7rr2HckBR1sNuFcuOplZuvSBZ/Yn8iCKZiLZyQ==
+"@bufbuild/connect@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@bufbuild/connect/-/connect-0.8.3.tgz#5eed5b2231ce7b0f9e9c504ea231d21eb7266ec4"
+  integrity sha512-lk4JVYxRPRvELAiYIc4fALI2qh/gG8j0yYTSKzBkmy+DuJ7xvWQ81DX7zo1WhXaZRxiC9VDU3jfFwgbwYrd2eQ==
 
 "@bufbuild/protobuf@1.0.0":
   version "1.0.0"
@@ -297,10 +297,10 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.1.0.tgz#249fc602d0ca78564d6666bbffcbbaef9aa905ff"
   integrity sha512-NYqSqOp+7u37sfQugoJaIWbnQdUTwB0UtfNhIeN71rr/xY8upO9zIvM865Ju7ws/21xbu05RUdC1gNhSggmCYg==
 
-"@bufbuild/protoc-gen-connect-web@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-web/-/protoc-gen-connect-web-0.8.2.tgz#a4c1c87e66dfad5e87face46de63714144f8266c"
-  integrity sha512-jl8zHo92W4XJ3J6E++DTBD9s2gTl2Y4HeLcYaALQBDbRCMdy5zPknPd6NONcbeRCRhpDUDtP0MB9A9NzCbaeVA==
+"@bufbuild/protoc-gen-connect-web@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-web/-/protoc-gen-connect-web-0.8.3.tgz#9374277b442ff01b660030327990eb3e0eca8620"
+  integrity sha512-BSlD3vrdhiizPVcVjJ4dwEIaeM64YWdNg84GPkAq/3+aen/bvAIaTl/2zQLgsU1evIEgxGjpVL8yzXHJ9nzglQ==
   dependencies:
     "@bufbuild/protobuf" "^1.0.0"
     "@bufbuild/protoplugin" "^1.0.0"
@@ -350,10 +350,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.35.0.tgz#b7569632b0b788a0ca0e438235154e45d42813a7"
   integrity sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==
 
-"@grpc/grpc-js@1.8.11":
-  version "1.8.11"
-  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.8.11.tgz#f113f7bc197e8d6f3d3f0c6b02925c7a5da1aec4"
-  integrity sha512-f/xC+6Z2QKsRJ+VSSFlt4hA5KSRm+PKvMWV8kMPkMgGlFidR6PeIkXrOasIY2roe+WROM6GFQLlgDKfeEZo2YQ==
+"@grpc/grpc-js@1.8.12":
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.8.12.tgz#bc0120859e8b153db764b473cc019ddf6bb2b414"
+  integrity sha512-MbUMvpVvakeKhdYux6gbSIPJaFMLNSY8jw4PqLI+FFztGrQRrYYAnHlR94+ncBQQewkpXQaW449m3tpH/B/ZnQ==
   dependencies:
     "@grpc/proto-loader" "^0.7.0"
     "@types/node" ">=12.12.47"
