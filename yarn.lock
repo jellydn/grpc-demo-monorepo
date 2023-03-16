@@ -1365,10 +1365,10 @@ detect-newline@^4.0.0:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-4.0.0.tgz#450ac3f864d5f61112b53a524123b012c59581bc"
   integrity sha512-1aXUEPdfGdzVPFpzGJJNgq9o81bGg1s09uxTWsqBlo9PI332uyJRQq13+LK/UN4JfxJbFdCXonUFQ9R/p7yCtw==
 
-diary@0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/diary/-/diary-0.4.3.tgz#f197b5a96a3721868cfd2b9a7294573dcd69ef24"
-  integrity sha512-UJSoJkIsD8ha8ti/LXPrbsusYX+cPuEhMndhBIJCtr1u7rTI0eoDbHCOj5OpDSEv1x8UBrUsy0bgjDdUD8S37Q==
+diary@0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/diary/-/diary-0.4.4.tgz#99d7e2877c15072c7a4933f08ff615ccfcd6126e"
+  integrity sha512-CTIivFihV6Y0gik2Y9HIOoB9hnUEPej5z4lkSMkmGBZSdUhjfYB7qtLVCHWr0g2RwtR98prF8aFdUaeth0kVgg==
 
 dir-glob@^3.0.1:
   version "3.0.1"
