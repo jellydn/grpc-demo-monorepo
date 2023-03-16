@@ -16,7 +16,7 @@
     "@grpc/grpc-js": "1.8.12",
     "@grpc/proto-loader": "0.7.5",
     "cac": "6.7.14",
-    "diary": "0.4.3",
+    "diary": "0.4.4",
     "express": "5.0.0-beta.1"
   },
   "devDependencies": {
