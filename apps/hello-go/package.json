@@ -13,6 +13,6 @@
   "devDependencies": {
     "@bufbuild/protoc-gen-connect-web": "0.8.4",
     "@bufbuild/connect-web": "0.8.4",
-    "@bufbuild/protoc-gen-es": "1.1.1"
+    "@bufbuild/protoc-gen-es": "1.2.0"
   }
 }

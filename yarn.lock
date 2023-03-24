@@ -332,10 +332,10 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.0.0.tgz#b25c045f8554f92c3723d5bb28e3a2538662f51b"
   integrity sha512-oH3jHBrZ6to8Qf4zLg7O8KqSY42kQZNBRXJRMp5uSi0mqE4L8NbyMnZHeOsbXmTb0xpptRyH11LfS+KeVhXzAA==
 
-"@bufbuild/protobuf@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.1.1.tgz#ed2a8d25975ccc405393c96aaf707c1897e249d3"
-  integrity sha512-1dS2m3jabfW2XL2K6//41wZkO4XJOZtpe0bKLuta0BvK5LxNRyUBSSN5835n3bIFiNJKFWhDnzZEMrV7QVGFfQ==
+"@bufbuild/protobuf@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.2.0.tgz#7efd5d4aa0540b108eb3b89b42507739e0974299"
+  integrity sha512-MBVuQMOBHxgGnZ9XCUIi8WOy5O/T4ma3TduCRhRvndv3UDbG9cHgd8h6nOYSGyBYPEvXf1z9nTwhp8mVIDbq2g==
 
 "@bufbuild/protobuf@^1.0.0":
   version "1.1.0"
@@ -350,19 +350,19 @@
     "@bufbuild/protobuf" "^1.0.0"
     "@bufbuild/protoplugin" "^1.0.0"
 
-"@bufbuild/protoc-gen-es@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.1.1.tgz#30e239a5f022e66fa4d2ff21fdba6177812c2490"
-  integrity sha512-TaT3xvUrlikuq7bN63d/FlpbecdnrKgerrUD+ArFGIN5CLIdBU+FMVlup/wvP+iTNxf0k6Qrpg2x7XhyLIHZMg==
+"@bufbuild/protoc-gen-es@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.2.0.tgz#80ee6bb58bb5c695cc386f7c5537249bd8c0bdbe"
+  integrity sha512-rdg2+Co4H+cImZ81EEzHLEi9bmzmMnS/bsf7XLHKtWYskj1PZVIalfquQejcSV6eWbdmVGKa29JwI5zEkSmkCQ==
   dependencies:
-    "@bufbuild/protoplugin" "1.1.1"
+    "@bufbuild/protoplugin" "1.2.0"
 
-"@bufbuild/protoplugin@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.1.1.tgz#a32ef874e00e3e20e54d1feaca1e77d41ccea92f"
-  integrity sha512-WDLgYReAMo1X2QqZrKyaFaZIcO01CHuq1dGRtaB42tyiY1f6Er9de1tvtRxt0MWfx5vPhZmoPCKSrwLZp92UTw==
+"@bufbuild/protoplugin@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.2.0.tgz#ec7cdb477047e009cc38ef79147de8c7329ecf4a"
+  integrity sha512-TX0mEk+LdIbpK2xr5RqeUswR8jGZs6uCX6Cq8azADj8hhiUr7Xty8agEOU/zR+J71D4dV5SnyEPYyw0nGJ6dGQ==
   dependencies:
-    "@bufbuild/protobuf" "1.1.1"
+    "@bufbuild/protobuf" "1.2.0"
     "@typescript/vfs" "^1.4.0"
     typescript "4.5.2"
 
@@ -775,10 +775,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.13.0.tgz#0400d1e6ce87e9d3032c19eb6c58205b0d3f7850"
   integrity sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==
 
-"@types/node@18.15.6":
-  version "18.15.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.6.tgz#af98ef4a36e7ac5f2d03040f3109fcce972bf6cb"
-  integrity sha512-YErOafCZpK4g+Rp3Q/PBgZNAsWKGunQTm9FA3/Pbcm0VCriTEzcrutQ/SxSc0rytAp0NoFWue669jmKhEtd0sA==
+"@types/node@18.15.7":
+  version "18.15.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.7.tgz#33514fca9bdf136f77027358850c0fb9cd93c669"
+  integrity sha512-LFmUbFunqmBn26wJZgZPYZPrDR1RwGOu2v79Mgcka1ndO6V0/cwjivPTc4yoK6n9kmw4/ls1r8cLrvh2iMibFA==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -811,10 +811,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.0.28":
-  version "18.0.28"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.28.tgz#accaeb8b86f4908057ad629a26635fe641480065"
-  integrity sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==
+"@types/react@18.0.29":
+  version "18.0.29"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.29.tgz#4cead505172c0020c5b51940199e31fc6ff2f63a"
+  integrity sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
