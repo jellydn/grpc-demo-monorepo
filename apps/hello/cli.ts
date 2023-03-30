@@ -5,7 +5,7 @@ import logger from "./logger";
 
 const cli = cac();
 
-// Usage: yarn cli hello --user "Dung Huynh"
+// Usage: yarn cli hello --user "Dung Huynh" --server 0.0.0.0:50051
 cli
   .command("hello", "say hello your friend")
   .option("--user <user>", "a user name", {
@@ -14,7 +14,9 @@ cli
   .option("--server <server>", "Set server", { default: "0.0.0.0:50051" })
   .example("--server 0.0.0.0:50051")
   .action((options) => {
-    console.log(options);
+    logger.info({
+      options,
+    });
   });
 
 cli.help();

@@ -12,7 +12,7 @@ This is the simple implementation of hello world RPC from [gRPC nodejs example](
 
 ## Usage
 
-Open RPC server on a termial
+Open RPC server on a terminal
 
 ```sh
 yarn dev
@@ -36,6 +36,3 @@ yarn cli --user ITMan
 
 Give a ⭐️ if this project helped you!
 
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
