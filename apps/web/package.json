@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@bufbuild/connect-web": "0.8.4",
+    "@bufbuild/connect-web": "0.8.5",
     "@grpc/grpc-js": "1.8.13",
     "next": "13.2.4",
     "react": "18.2.0",
