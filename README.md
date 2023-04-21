@@ -77,6 +77,7 @@ More detail of each readme file on each application.
 - [grpc-web](https://github.com/improbable-eng/grpc-web): gRPC Web implementation for Golang and TypeScript
 - [proto-client](https://github.com/codenothing/proto-client): A typed gRPC Client with static code generation
 - [deeplay-io/nice-grpc](https://github.com/deeplay-io/nice-grpc): A TypeScript gRPC library that is nice to you
+- [SafetyCulture/grpc-web-devtools](https://github.com/SafetyCulture/grpc-web-devtools): Chrome & Firefox Browser extension to aid gRPC-Web development
 
 ## Useful References
 
