@@ -21,7 +21,7 @@ yarn dev
 Then send a message to RPC from CLI
 
 ```sh
-yarn cli --user ITMan
+yarn cli hello --user "IT Man Channel" --server 0.0.0.0:50051
 ```
 
 ## Author
