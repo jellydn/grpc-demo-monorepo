@@ -5,11 +5,11 @@
 
 > Demo RPC app with NodeJS
 
-Connect-Node is on the roadmap so this implmentation is base on this Github [issue](https://github.com/bufbuild/protobuf-es/issues/252#issuecomment-1282549160)
+Connect-Node is on the roadmap so this implementation is base on this Github [issue](https://github.com/bufbuild/protobuf-es/issues/252#issuecomment-1282549160)
 
 ## Usage
 
-Open RPC server on a termial
+Open RPC server on a terminal
 
 ```sh
 yarn dev
@@ -18,7 +18,7 @@ yarn dev
 Then send a message to RPC from CLI
 
 ```sh
-yarn cli --user ITMan
+yarn cli hello --user "IT Man Channel" --server 0.0.0.0:50052
 ```
 
 ## Author
@@ -33,7 +33,3 @@ yarn cli --user ITMan
 
 Give a ⭐️ if this project helped you!
 
----
-
-_This README was generated with ❤️ by
-[readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
