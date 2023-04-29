@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	// Uncomment this block if you want to to use Connect protocol intead of Gprc
+	// Uncomment this block if you want to to use Connect protocol instead of Gprc
 	// Usage 1: use connect protocol
 	// client := greetv1connect.NewGreetServiceClient(
 	// 	http.DefaultClient,

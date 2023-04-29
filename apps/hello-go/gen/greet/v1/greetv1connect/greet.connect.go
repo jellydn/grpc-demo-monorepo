@@ -25,6 +25,18 @@ const (
 	GreetServiceName = "greet.v1.GreetService"
 )
 
+// These constants are the fully-qualified names of the RPCs defined in this package. They're
+// exposed at runtime as Spec.Procedure and as the final two segments of the HTTP route.
+//
+// Note that these are different from the fully-qualified method names used by
+// google.golang.org/protobuf/reflect/protoreflect. To convert from these constants to
+// reflection-formatted method names, remove the leading slash and convert the remaining slash to a
+// period.
+const (
+	// GreetServiceGreetProcedure is the fully-qualified name of the GreetService's Greet RPC.
+	GreetServiceGreetProcedure = "/greet.v1.GreetService/Greet"
+)
+
 // GreetServiceClient is a client for the greet.v1.GreetService service.
 type GreetServiceClient interface {
 	Greet(context.Context, *connect_go.Request[v1.GreetRequest]) (*connect_go.Response[v1.GreetResponse], error)
@@ -42,7 +54,7 @@ func NewGreetServiceClient(httpClient connect_go.HTTPClient, baseURL string, opt
 	return &greetServiceClient{
 		greet: connect_go.NewClient[v1.GreetRequest, v1.GreetResponse](
 			httpClient,
-			baseURL+"/greet.v1.GreetService/Greet",
+			baseURL+GreetServiceGreetProcedure,
 			opts...,
 		),
 	}
@@ -70,8 +82,8 @@ type GreetServiceHandler interface {
 // and JSON codecs. They also support gzip compression.
 func NewGreetServiceHandler(svc GreetServiceHandler, opts ...connect_go.HandlerOption) (string, http.Handler) {
 	mux := http.NewServeMux()
-	mux.Handle("/greet.v1.GreetService/Greet", connect_go.NewUnaryHandler(
-		"/greet.v1.GreetService/Greet",
+	mux.Handle(GreetServiceGreetProcedure, connect_go.NewUnaryHandler(
+		GreetServiceGreetProcedure,
 		svc.Greet,
 		opts...,
 	))
