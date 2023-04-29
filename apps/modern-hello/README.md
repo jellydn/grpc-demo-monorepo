@@ -5,7 +5,8 @@
 
 > Demo RPC app with NodeJS
 
-Connect-Node is on the roadmap so this implementation is base on this Github [issue](https://github.com/bufbuild/protobuf-es/issues/252#issuecomment-1282549160)
+~~Connect-Node is on the roadmap so this implementation is based on this Github [issue](https://github.com/bufbuild/protobuf-es/issues/252#issuecomment-1282549160)~~
+Connect-Node is now available! Please refer to the `hello-connect` app for implementation examples.
 
 ## Usage
 
@@ -32,4 +33,3 @@ yarn cli hello --user "IT Man Channel" --server 0.0.0.0:50052
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
