@@ -1,7 +1,5 @@
-import {
-  createGrpcTransport,
-  createPromiseClient,
-} from "@bufbuild/connect-node";
+import { createPromiseClient } from "@bufbuild/connect";
+import { createGrpcTransport } from "@bufbuild/connect-node";
 import express from "express";
 
 import logger from "./logger";
