@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"time"
 
 	"github.com/bufbuild/connect-go"
 	"github.com/rs/cors"
@@ -32,6 +33,46 @@ func (s *GreetServer) Greet(
 	return res, nil
 }
 
+// newCORS returns a CORS handler that allows all origins and methods. This is borrowed from https://github.com/bufbuild/connect-demo/blob/3a30d4de07d6ac42110acd4ebf64bb4bf8a62579/main.go#L88
+func newCORS() *cors.Cors {
+	// To let web developers play with the demo service from browsers, we need a
+	// very permissive CORS setup.
+	return cors.New(cors.Options{
+		AllowedMethods: []string{
+			http.MethodHead,
+			http.MethodGet,
+			http.MethodPost,
+			http.MethodPut,
+			http.MethodPatch,
+			http.MethodDelete,
+		},
+		AllowOriginFunc: func(origin string) bool {
+			// Allow all origins, which effectively disables CORS.
+			return true
+		},
+		AllowedHeaders: []string{"*"},
+		ExposedHeaders: []string{
+			// Content-Type is in the default safelist.
+			"Accept",
+			"Accept-Encoding",
+			"Accept-Post",
+			"Connect-Accept-Encoding",
+			"Connect-Content-Encoding",
+			"Content-Encoding",
+			"Grpc-Accept-Encoding",
+			"Grpc-Encoding",
+			"Grpc-Message",
+			"Grpc-Status",
+			"Grpc-Status-Details-Bin",
+		},
+		// Let browsers cache CORS information for longer, which reduces the number
+		// of preflight requests. Any changes to ExposedHeaders won't take effect
+		// until the cached data expires. FF caps this value at 24h, and modern
+		// Chrome caps it at 2h.
+		MaxAge: int(2 * time.Hour / time.Second),
+	})
+}
+
 func main() {
 	greeter := &GreetServer{}
 	mux := http.NewServeMux()
@@ -41,8 +82,6 @@ func main() {
 	log.Println("Ready - Server is running at localhost:8080")
 	http.ListenAndServe(
 		"0.0.0.0:8080",
-		// Use h2c so we can serve HTTP/2 without TLS.
-		// cors.Default() setup the middleware with default options being
-		cors.Default().Handler(h2c.NewHandler(mux, &http2.Server{})),
+		newCORS().Handler(h2c.NewHandler(mux, &http2.Server{})),
 	)
 }
