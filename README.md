@@ -7,7 +7,7 @@
 
 ## Prerequisites
 
-- node >=14.0.0
+- node >=18.0.0
 - go >= 1.19
 - [protoc](https://grpc.io/docs/protoc-installation/): Protocol Buffer Compiler Installation
 - [buf](https://github.com/bufbuild/buf):A new way of working with Protocol
