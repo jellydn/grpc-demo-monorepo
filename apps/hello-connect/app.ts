@@ -3,7 +3,7 @@ import { createGrpcTransport } from "@bufbuild/connect-node";
 import express from "express";
 
 import logger from "./logger";
-import { Greeter } from "./types/protos/hello_connectweb";
+import { Greeter } from "./types/protos/hello_connect";
 
 const transport = createGrpcTransport({
   baseUrl: "http://localhost:50053",

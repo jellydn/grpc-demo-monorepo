@@ -3,7 +3,7 @@ import { createGrpcTransport } from "@bufbuild/connect-node";
 import { cac } from "cac";
 
 import logger from "./logger";
-import { Greeter } from "./types/protos/hello_connectweb";
+import { Greeter } from "./types/protos/hello_connect";
 
 const cli = cac();
 

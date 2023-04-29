@@ -5,7 +5,7 @@ plugins:
   - name: es
     out: types
     opt: target=ts
-  # This will invoke protoc-gen-connect-web
-  - name: connect-web
+  # This will invoke protoc-gen-connect-es
+  - name: connect-es
     out: types
     opt: target=ts

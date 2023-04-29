@@ -3,7 +3,7 @@ import { connectNodeAdapter } from "@bufbuild/connect-node";
 import * as http2 from "http2";
 
 import logger from "./logger";
-import { Greeter } from "./types/protos/hello_connectweb";
+import { Greeter } from "./types/protos/hello_connect";
 
 /**
  * Implements the SayHello RPC method.
