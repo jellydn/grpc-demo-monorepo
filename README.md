@@ -47,7 +47,8 @@ yarn dev
 
 - hello-connect: small
   [Connect service](https://connect.build/docs/go/getting-started) with [NodeJs](https://github.com/bufbuild/connect-web/tree/main/packages/connect-node).
-  - [ ] Add record gif for the demo
+
+![https://gyazo.com/4c8dae4294ca82b4bb12fe8ca78106e5.gif](https://gyazo.com/4c8dae4294ca82b4bb12fe8ca78106e5.gif)
 
 - hello-twirp: hello service written in Go with
   [twirp](https://twitchtv.github.io/twirp/).
@@ -113,4 +114,3 @@ Thank you for the image from
 [![Stargazers repo roster for @jellydn/grpc-demo-monorepo](https://reporoster.com/stars/jellydn/grpc-demo-monorepo)](https://github.com/jellydn/grpc-demo-monorepo/stargazers)
 
 Give a ⭐️ if this project helped you!
-
