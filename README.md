@@ -74,7 +74,7 @@ More detail of each readme file on each application.
 - [grpc](https://grpc.io/): A high performance, open source universal RPC framework.
 - [twirp](https://github.com/twitchtv/twirp): A simple RPC framework with protobuf service definitions.
 - [protobuf-es](https://github.com/bufbuild/protobuf-es):Protocol Buffers for ECMAScript.
-- [connect-web](https://github.com/bufbuild/connect-web): Simple, reliable, interoperable. A better gRPC-Web.
+- [bufbuild/connect-es](https://github.com/bufbuild/connect-es) Connect, gRPC, and gRPC-Web support for Protobuf and TypeScript.
 - [connect-go](https://github.com/bufbuild/connect-go): Simple, reliable, interoperable. A better gRPC.
 - [@grpc/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js): Pure JavaScript gRPC Client
 - [@grpc/proto-loader](https://github.com/grpc/grpc-node/tree/master/packages/proto-loader): A utility package for loading .proto files for use with gRPC, using the latest Protobuf.js package.
