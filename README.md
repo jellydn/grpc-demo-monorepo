@@ -5,6 +5,9 @@
 
 > Grpc Demo Apps with Go/NodeJS
 
+[![IT Man - Tech #36 - gRPC 101](https://i.ytimg.com/vi/S2zpdfXfNO8/hqdefault.jpg)](https://www.youtube.com/watch?v=S2zpdfXfNO8)
+
+
 ## Prerequisites
 
 - node >=18.0.0
