@@ -95,8 +95,9 @@ More detail of each readme file on each application.
 
 ### How does gPRC Work?
 
-Thank you for the image from
-[bytebytego](https://blog.bytebytego.com).
+Thank you for the images from [bytebytego](https://blog.bytebytego.com).
+
+![grpc](https://user-images.githubusercontent.com/870029/235720586-3e612cdd-f12a-4aeb-a4fa-4ee68870ed55.png)
 
 ![grpc](grpc.jpeg)
 
