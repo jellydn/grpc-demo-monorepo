@@ -92,6 +92,7 @@ More detail of each readme file on each application.
 - [Twirp: a sweet new RPC framework for Go](https://blog.twitch.tv/en/2018/01/16/twirp-a-sweet-new-rpc-framework-for-go-5f2febbf35f/)
 - [When to use gRPC vs GraphQL - Stack Overflow Blog](https://stackoverflow.blog/2022/11/28/when-to-use-grpc-vs-graphql/)
 - [Building a modern gRPC-powered microservice using Node.js, Typescript, and Connect — Dopt](https://blog.dopt.com/building-a-modern-grpc-powered-microservice)
+- [Supercharging your gRPC workflow | Bob](https://bob.build/blog/supercharge-grpc-workflows)
 
 ### How does gPRC Work?
 
