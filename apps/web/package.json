@@ -23,10 +23,10 @@
   },
   "devDependencies": {
     "@babel/core": "7.21.8",
-    "@types/node": "18.16.4",
+    "@types/node": "18.16.5",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.4",
-    "eslint": "8.39.0",
+    "eslint": "8.40.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "5.0.4"
