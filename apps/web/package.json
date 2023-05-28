@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@bufbuild/connect-web": "0.8.6",
+    "@bufbuild/connect-web": "0.9.0",
     "@grpc/grpc-js": "1.8.14",
-    "next": "13.4.1",
+    "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "2.4.1",
@@ -22,11 +22,11 @@
     "modern-hello": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.21.8",
-    "@types/node": "18.16.7",
-    "@types/react": "18.2.6",
+    "@babel/core": "7.22.1",
+    "@types/node": "18.16.16",
+    "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "5.0.4"
