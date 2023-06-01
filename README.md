@@ -93,6 +93,7 @@ More detail of each readme file on each application.
 - [When to use gRPC vs GraphQL - Stack Overflow Blog](https://stackoverflow.blog/2022/11/28/when-to-use-grpc-vs-graphql/)
 - [Building a modern gRPC-powered microservice using Node.js, Typescript, and Connect — Dopt](https://blog.dopt.com/building-a-modern-grpc-powered-microservice)
 - [Supercharging your gRPC workflow | Bob](https://bob.build/blog/supercharge-grpc-workflows)
+- [Buf - Building a modern gRPC-powered microservice using Node.js, Typescript, and Connect](https://buf.build/blog/gRPC-microservice-with-connect/)
 
 ### How does gPRC Work?
 
