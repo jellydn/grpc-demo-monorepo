@@ -679,16 +679,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "18.2.7"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.7.tgz#dfb4518042a3117a045b8c222316f83414a783b3"
-  integrity sha512-ojrXpSH2XFCmHm7Jy3q44nXDyN54+EYKP2lBhJ2bqfyPj6cIUW/FZW/Csdia34NQgq7KYcAlHi5184m4X88+yw==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@18.2.8":
+"@types/react@*", "@types/react@18.2.8":
   version "18.2.8"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.8.tgz#a77dcffe4e9af148ca4aa8000c51a1e8ed99e2c8"
   integrity sha512-lTyWUNrd8ntVkqycEEplasWy2OxNlShj3zqS0LuB1ENUGis5HodmhM7DtCoUGbxj3VW/WsGA0DUhpG6XrM7gPA==
@@ -1030,9 +1021,9 @@ callsites@^3.0.0:
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
 caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001489:
-  version "1.0.30001491"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001491.tgz#eab0e0f392de6f7411751d148de9b5bd6b203e46"
-  integrity sha512-17EYIi4TLnPiTzVKMveIxU5ETlxbSO3B6iPvMbprqnKh4qJsQGk5Nh1Lp4jIMAE0XfrujsJuWZAM3oJdMHaKBA==
+  version "1.0.30001494"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001494.tgz#3e56e04a48da7a79eae994559eb1ec02aaac862f"
+  integrity sha512-sY2B5Qyl46ZzfYDegrl8GBCzdawSLT4ThM9b9F+aDYUrAG2zCOyMbd2Tq34mS1g4ZKBfjRlzOohQMxx28x6wJg==
 
 catharsis@^0.9.0:
   version "0.9.0"
@@ -1328,9 +1319,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.411:
-  version "1.4.414"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.414.tgz#f9eedb6fb01b50439d8228d8ee3a6fa5e0108437"
-  integrity sha512-RRuCvP6ekngVh2SAJaOKT/hxqc9JAsK+Pe0hP5tGQIfonU2Zy9gMGdJ+mBdyl/vNucMG6gkXYtuM4H/1giws5w==
+  version "1.4.419"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz#6fbea1f3abb65bf46e8ad874b5c1f0816ce2f8ce"
+  integrity sha512-jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1534,11 +1525,11 @@ eslint-config-prettier@8.8.0:
   integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
 eslint-config-turbo@latest:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-1.10.0.tgz#e146643408136035e246e6305c768cd370a69119"
-  integrity sha512-iJsjoOb0vjnpV65rL+SAOIgbOluEibFqo/ke4UzXA9bi13cNJOT9k6FCQA7RXBHwChz+6BzYq5ZyoE3WcUg+0g==
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-1.10.1.tgz#9c1c8383d89577405d12a03a70b2342ee688c19d"
+  integrity sha512-XRF5adpGJIX+IQNRHcGtUCsPZV95vabSvttrxuLOyWufzBctWNkgIo8Mpi5om8ZmYuMqXPUo8IOh3sRR5H1HCw==
   dependencies:
-    eslint-plugin-turbo "1.10.0"
+    eslint-plugin-turbo "1.10.1"
 
 eslint-import-resolver-node@^0.3.6, eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -1639,10 +1630,10 @@ eslint-plugin-react@7.32.2, eslint-plugin-react@^7.31.7:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.8"
 
-eslint-plugin-turbo@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-1.10.0.tgz#d242269e9dad6c99aa764b3ed026cd7299c4576a"
-  integrity sha512-7eDeOjZDx/GcrZj4XYX1puaxsDtm6FE53qlbb4JyJhhkKC8OVYTJHTpu8kSmFTNsVoIgDFo/SEUIMwKHLYRM3w==
+eslint-plugin-turbo@1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-1.10.1.tgz#3fa24a308c4839a5c4d969a59651ab3fd72b6021"
+  integrity sha512-bScQeG42PhVPzSeJgCTk79hRqN8jFYY6Io7fw2qyuOtlff4QkSuBTot+BBooxk4BL11gJglWZUJk2nqumLJGOA==
 
 eslint-scope@^7.2.0:
   version "7.2.0"
@@ -3639,9 +3630,9 @@ tslib@^1.8.1:
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@^2.1.0, tslib@^2.4.0, tslib@^2.5.0:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.2.tgz#1b6f07185c881557b0ffa84b111a0106989e8338"
-  integrity sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
+  integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
 
 tsutils@^3.21.0:
   version "3.21.0"
