@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@bufbuild/connect-web": "0.10.0",
-    "@grpc/grpc-js": "1.8.15",
+    "@grpc/grpc-js": "1.8.16",
     "next": "13.4.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
