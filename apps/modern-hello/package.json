@@ -13,7 +13,7 @@
   "dependencies": {
     "@bufbuild/connect-web": "0.10.0",
     "@bufbuild/protobuf": "1.2.1",
-    "@grpc/grpc-js": "1.8.15",
+    "@grpc/grpc-js": "1.8.16",
     "cac": "6.7.14",
     "diary": "0.4.4",
     "express": "5.0.0-beta.1"
