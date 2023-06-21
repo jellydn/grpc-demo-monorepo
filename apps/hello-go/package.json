@@ -11,8 +11,8 @@
     "proto:types": "buf generate"
   },
   "devDependencies": {
-    "@bufbuild/protoc-gen-connect-web": "0.10.0",
-    "@bufbuild/connect-web": "0.10.0",
+    "@bufbuild/protoc-gen-connect-web": "0.10.1",
+    "@bufbuild/connect-web": "0.10.1",
     "@bufbuild/protoc-gen-es": "1.2.1"
   }
 }
