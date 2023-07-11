@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "1.8.17",
-    "@grpc/proto-loader": "0.7.7",
+    "@grpc/proto-loader": "0.7.8",
     "cac": "6.7.14",
     "diary": "0.4.4",
     "express": "5.0.0-beta.1"

@@ -333,7 +333,18 @@
     "@grpc/proto-loader" "^0.7.0"
     "@types/node" ">=12.12.47"
 
-"@grpc/proto-loader@0.7.7", "@grpc/proto-loader@^0.7.0":
+"@grpc/proto-loader@0.7.8":
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/@grpc/proto-loader/-/proto-loader-0.7.8.tgz#c050bbeae5f000a1919507f195a1b094e218036e"
+  integrity sha512-GU12e2c8dmdXb7XUlOgYWZ2o2i+z9/VeACkxTA/zzAe2IjclC5PnVL0lpgjhrqfpDYHzM8B1TF6pqWegMYAzlA==
+  dependencies:
+    "@types/long" "^4.0.1"
+    lodash.camelcase "^4.3.0"
+    long "^4.0.0"
+    protobufjs "^7.2.4"
+    yargs "^17.7.2"
+
+"@grpc/proto-loader@^0.7.0":
   version "0.7.7"
   resolved "https://registry.yarnpkg.com/@grpc/proto-loader/-/proto-loader-0.7.7.tgz#d33677a77eea8407f7c66e2abd97589b60eb4b21"
   integrity sha512-1TIeXOi8TuSCQprPItwoMymZXxWT0CPxUhkrkeCUH+D8U7QDwQ6b7SUz2MaLuWM2llT+J/TVFLmQI5KtML3BhQ==
@@ -3054,7 +3065,7 @@ protobufjs-cli@^1.0.2:
     tmp "^0.2.1"
     uglify-js "^3.7.7"
 
-protobufjs@^7.0.0, protobufjs@^7.1.2:
+protobufjs@^7.0.0, protobufjs@^7.1.2, protobufjs@^7.2.4:
   version "7.2.4"
   resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-7.2.4.tgz#3fc1ec0cdc89dd91aef9ba6037ba07408485c3ae"
   integrity sha512-AT+RJgD2sH8phPmCf7OUZR8xGdcJRga4+1cOaXJ64hvcSkVhNcRHOwIxUatPH15+nj59WAGTDv3LSGZPEQbJaQ==
