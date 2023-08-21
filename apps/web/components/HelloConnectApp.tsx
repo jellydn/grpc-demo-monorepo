@@ -2,10 +2,8 @@ import { useState } from "react";
 import { Button } from "ui";
 import toast from "react-hot-toast";
 
-import {
-  createConnectTransport,
-  createPromiseClient,
-} from "@bufbuild/connect-web";
+import { createConnectTransport } from "@bufbuild/connect-web";
+import { createPromiseClient } from "@bufbuild/connect";
 
 // Import service definition that you want to connect to.
 import { GreetService } from "hello-go/types/greet/v1/greet_connectweb";
