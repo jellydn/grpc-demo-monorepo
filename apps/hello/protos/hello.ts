@@ -8,7 +8,7 @@ import type {
 
 type SubtypeConstructor<
   Constructor extends new (...args: any) => any,
-  Subtype
+  Subtype,
 > = {
   new (...args: ConstructorParameters<Constructor>): Subtype;
 };

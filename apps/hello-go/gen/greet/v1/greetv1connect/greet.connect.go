@@ -81,13 +81,19 @@ type GreetServiceHandler interface {
 // By default, handlers support the Connect, gRPC, and gRPC-Web protocols with the binary Protobuf
 // and JSON codecs. They also support gzip compression.
 func NewGreetServiceHandler(svc GreetServiceHandler, opts ...connect_go.HandlerOption) (string, http.Handler) {
-	mux := http.NewServeMux()
-	mux.Handle(GreetServiceGreetProcedure, connect_go.NewUnaryHandler(
+	greetServiceGreetHandler := connect_go.NewUnaryHandler(
 		GreetServiceGreetProcedure,
 		svc.Greet,
 		opts...,
-	))
-	return "/greet.v1.GreetService/", mux
+	)
+	return "/greet.v1.GreetService/", http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		switch r.URL.Path {
+		case GreetServiceGreetProcedure:
+			greetServiceGreetHandler.ServeHTTP(w, r)
+		default:
+			http.NotFound(w, r)
+		}
+	})
 }
 
 // UnimplementedGreetServiceHandler returns CodeUnimplemented from all methods.
