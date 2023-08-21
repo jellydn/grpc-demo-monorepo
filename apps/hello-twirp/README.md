@@ -6,7 +6,7 @@ Set GOBIN (see go help environment) to define where the tool dependencies will
 be installed. For example, if you have a /bin folder in your project:
 
 ```sh
-export GOBIN=$PWD/bin 
+export GOBIN=$PWD/bin
 ```
 
 The installed packages need to be accessible by the protoc
@@ -19,8 +19,8 @@ export PATH=$GOBIN:$PATH
 ## Install generators:
 
 ```sh
-go install github.com/twitchtv/twirp/protoc-gen-twirp@latest go install
-google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install github.com/twitchtv/twirp/protoc-gen-twirp@latest
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 ```
 
 ## Getting Started
