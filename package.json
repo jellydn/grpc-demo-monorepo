@@ -22,8 +22,8 @@
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "prettier": "latest",
-    "sort-package-json": "2.5.1",
-    "tsx": "3.12.10",
+    "sort-package-json": "2.6.0",
+    "tsx": "3.13.0",
     "turbo": "1.10.14"
   },
   "packageManager": "yarn@1.22.19",
