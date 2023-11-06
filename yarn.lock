@@ -243,6 +243,11 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.4.1.tgz#2a827da66aebe904edca21f7085724154aa7868d"
   integrity sha512-4dthhwBGD9nlpY35ic8dMQC5R0dsND2b2xyeVO3qf+hBk8m7Y9dUs+SmMh6rqO2pGLUTKHefGXLDW+z19hBPdQ==
 
+"@bufbuild/protobuf@1.4.2", "@bufbuild/protobuf@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.4.2.tgz#dc4faf21264a47b71a15806616043cb006e80ac8"
+  integrity sha512-JyEH8Z+OD5Sc2opSg86qMHn1EM1Sa+zj/Tc0ovxdwk56ByVNONJSabuCUbLQp+eKN3rWNfrho0X+3SEqEPXIow==
+
 "@bufbuild/protoc-gen-connect-es@0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-es/-/protoc-gen-connect-es-0.13.0.tgz#fde0a1401d21010a14524a110e0bd8531ea83210"
@@ -259,14 +264,24 @@
     "@bufbuild/protobuf" "^1.2.1"
     "@bufbuild/protoplugin" "^1.2.1"
 
-"@bufbuild/protoc-gen-es@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.4.1.tgz#92ba2b0aad336bb5091dd0d387b448d8363fbb24"
-  integrity sha512-YPEFzLl/RslDJXZoqI505YutOsYGIz1zGrYTltTrdgk0EZkDSAQfq6/Yu36mPkUSypHEaRSoDlrlcpthIwA19w==
+"@bufbuild/protoc-gen-es@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.4.2.tgz#00c8b09430dd1154e626da7c247fd6425a1cd41d"
+  integrity sha512-/It7M2s8H1zTDvUMJu6vhBmtnzeFL2VS6e78RYIY38602pNXDK/vbteKUo4KrG0O07lOPFu87hHZ0Y+w5Ib6iw==
   dependencies:
-    "@bufbuild/protoplugin" "1.4.1"
+    "@bufbuild/protobuf" "^1.4.2"
+    "@bufbuild/protoplugin" "1.4.2"
 
-"@bufbuild/protoplugin@1.4.1", "@bufbuild/protoplugin@^1.2.1":
+"@bufbuild/protoplugin@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.4.2.tgz#abf9b0e6a3dc8b52b1d6699d7a1ce5219fa82322"
+  integrity sha512-5IwGC1ZRD2A+KydGXeaSOErwfILLqVtvMH/RkN+cOoHcQd4EYXFStcF7g7aR+yICRDEEjQVi5tQF/qPGBSr9vg==
+  dependencies:
+    "@bufbuild/protobuf" "1.4.2"
+    "@typescript/vfs" "^1.4.0"
+    typescript "4.5.2"
+
+"@bufbuild/protoplugin@^1.2.1":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.4.1.tgz#ed09bf07b2cb2669460919a953a3f2f6f1a16adf"
   integrity sha512-URC4/O5MsM94W7ed8NJMw1mUaFAKr5y0B67PMjhBdhVcDi6p8be76wz9+xW6/B6dMzlO+SpnicFYc9fEhLcQIw==
@@ -762,10 +777,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.35":
+"@types/react@*":
   version "18.2.35"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.35.tgz#bacdc6d139a4d6d47e5186e1a96952c65e1f3792"
   integrity sha512-LG3xpFZ++rTndV+/XFyX5vUP7NI9yxyk+MQvBDq+CVs8I9DLSc3Ymwb1Vmw5YDoeNeHN4PDZa3HylMKJYT9PNQ==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@18.2.36":
+  version "18.2.36"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.36.tgz#bc68ffb4408e5d0c419b0760b2eaeec70aeeedb3"
+  integrity sha512-o9XFsHYLLZ4+sb9CWUYwHqFVoG61SesydF353vFMMsQziiyRu8np4n2OYMUSDZ8XuImxDr9c5tR7gidlH29Vnw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
