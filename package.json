@@ -16,14 +16,14 @@
     "proto:types": "turbo run proto:types --parallel"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "4.2.1",
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "concurrently": "8.2.2",
     "eslint-config-custom": "*",
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "prettier": "latest",
     "sort-package-json": "2.6.0",
-    "tsx": "4.0.0",
+    "tsx": "4.1.0",
     "turbo": "1.10.16"
   },
   "packageManager": "yarn@1.22.19",
