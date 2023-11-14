@@ -26,7 +26,7 @@
     "tsx": "4.1.2",
     "turbo": "1.10.16"
   },
-  "packageManager": "yarn@1.22.19",
+  "packageManager": "yarn@1.22.20",
   "engines": {
     "node": ">=14.0.0"
   },
