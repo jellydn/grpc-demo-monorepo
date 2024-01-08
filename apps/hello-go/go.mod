@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/bufbuild/connect-go v1.10.0
 	github.com/rs/cors v1.10.1
-	golang.org/x/net v0.19.0
+	golang.org/x/net v0.20.0
 	google.golang.org/protobuf v1.32.0
 )
 
