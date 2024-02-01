@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.23.9",
-    "@types/node": "20.11.14",
-    "@types/react": "18.2.48",
+    "@types/node": "20.11.15",
+    "@types/react": "18.2.51",
     "@types/react-dom": "18.2.18",
     "eslint": "8.56.0",
     "eslint-config-custom": "*",
