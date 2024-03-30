@@ -789,10 +789,17 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-1.3.5.tgz#1ef302e01cf7d2b5a0fa526790c9123bf1d06690"
   integrity sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==
 
-"@types/node@*", "@types/node@20.11.30", "@types/node@>=13.7.0":
+"@types/node@*", "@types/node@>=13.7.0":
   version "20.11.30"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.30.tgz#9c33467fc23167a347e73834f788f4b9f399d66f"
   integrity sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==
+  dependencies:
+    undici-types "~5.26.4"
+
+"@types/node@20.12.2":
+  version "20.12.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.2.tgz#9facdd11102f38b21b4ebedd9d7999663343d72e"
+  integrity sha512-zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -3582,7 +3589,7 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.1.2, semver@^7.5.4:
+semver@^7.1.2, semver@^7.5.4, semver@^7.6.0:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz#1a46a4db4bffcccd97b743b5005c8325f23d4e2d"
   integrity sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==
@@ -3691,10 +3698,10 @@ sort-object-keys@^1.1.3:
   resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
   integrity sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==
 
-sort-package-json@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.9.0.tgz#99084f0a1f36e2f3047e1bd6ad22096e5f7d41da"
-  integrity sha512-vlEd6i57Eb9+ruta1+hID+emmAmGzWKraEX1kk5LAQ0k1glgDHOENeieqzfir0m8MHcebzDH4FEwqjPnMEjy2g==
+sort-package-json@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.10.0.tgz#6be07424bf3b7db9fbb1bdd69e7945f301026d8a"
+  integrity sha512-MYecfvObMwJjjJskhxYfuOADkXp1ZMMnCFC8yhp+9HDsk7HhR336hd7eiBs96lTXfiqmUNI+WQCeCMRBhl251g==
   dependencies:
     detect-indent "^7.0.1"
     detect-newline "^4.0.0"
@@ -3702,6 +3709,7 @@ sort-package-json@2.9.0:
     git-hooks-list "^3.0.0"
     globby "^13.1.2"
     is-plain-obj "^4.1.0"
+    semver "^7.6.0"
     sort-object-keys "^1.1.3"
 
 source-map-js@^1.0.2:
