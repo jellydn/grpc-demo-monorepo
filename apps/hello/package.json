@@ -13,8 +13,8 @@
     "proto:types": "$(yarn bin)/proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=protos/ protos/*.proto"
   },
   "dependencies": {
-    "@grpc/grpc-js": "1.10.6",
-    "@grpc/proto-loader": "0.7.12",
+    "@grpc/grpc-js": "1.10.7",
+    "@grpc/proto-loader": "0.7.13",
     "cac": "6.7.14",
     "diary": "0.4.5",
     "express": "5.0.0-beta.3"
