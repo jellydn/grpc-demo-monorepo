@@ -23,7 +23,7 @@
     "nano-staged": "0.8.0",
     "prettier": "latest",
     "sort-package-json": "2.10.0",
-    "tsx": "4.10.1",
+    "tsx": "4.10.2",
     "turbo": "1.13.3"
   },
   "packageManager": "yarn@1.22.22",
