@@ -3989,10 +3989,10 @@ tslib@^2.1.0, tslib@^2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.3.tgz#0438f810ad7a9edcde7a241c3d80db693c8cbfe0"
   integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
 
-tsx@4.15.8:
-  version "4.15.8"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.15.8.tgz#e4ef4c31864c7db9abb3d42c21e8f92858dc22be"
-  integrity sha512-B8dMlbbkZPW0GQ7wafyy2TGXyoGYW0IURfWkM1h/WzgG5lxxRoeDU2VbMURmmjwGaCsoKROVTLmQQPe/s2TnLw==
+tsx@4.15.9:
+  version "4.15.9"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.15.9.tgz#9c8cf4e78b87a9f0e295b8b72cee5c57ad5cbfca"
+  integrity sha512-OEw8VSS5Ug88pj3YhOic1Zmg+mKOuJOcBdpxl402C0D4TjRxu/LTIrr+slbc8nKQA+b7YC9SoHTZAEeQQPBwFw==
   dependencies:
     esbuild "~0.21.4"
     get-tsconfig "^4.7.5"
