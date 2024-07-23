@@ -11,7 +11,7 @@
     "eslint-config-turbo": "latest"
   },
   "devDependencies": {
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "publishConfig": {
     "access": "public"
