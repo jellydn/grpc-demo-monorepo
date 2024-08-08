@@ -10,10 +10,13 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "postinstall": "npx husky install",
     "lint": "turbo run lint",
     "proto:client": "turbo run proto:client --parallel",
     "proto:types": "turbo run proto:types --parallel"
+  },
+  "nano-staged": {
+    "*.{js,ts,json}": "prettier --write",
+    "package.json": "sort-package-json"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
@@ -24,14 +27,10 @@
     "prettier": "latest",
     "sort-package-json": "2.10.0",
     "tsx": "4.17.0",
-    "turbo": "1.13.4"
+    "turbo": "^2.0.12"
   },
   "packageManager": "yarn@1.22.22",
   "engines": {
     "node": ">=14.0.0"
-  },
-  "nano-staged": {
-    "*.{js,ts,json}": "prettier --write",
-    "package.json": "sort-package-json"
   }
 }
