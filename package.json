@@ -27,7 +27,7 @@
     "prettier": "latest",
     "sort-package-json": "2.10.0",
     "tsx": "4.17.0",
-    "turbo": "2.0.13"
+    "turbo": "2.0.14"
   },
   "packageManager": "yarn@1.22.22",
   "engines": {
