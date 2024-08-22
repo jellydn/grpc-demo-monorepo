@@ -25,7 +25,7 @@
     "husky": "9.1.5",
     "nano-staged": "0.8.0",
     "prettier": "latest",
-    "sort-package-json": "2.10.0",
+    "sort-package-json": "2.10.1",
     "tsx": "4.17.0",
     "turbo": "2.0.14"
   },
