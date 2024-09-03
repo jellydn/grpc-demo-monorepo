@@ -7,7 +7,7 @@
     "eslint": "9.9.1",
     "eslint-config-next": "14.2.7",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-react": "7.35.0",
+    "eslint-plugin-react": "7.35.1",
     "eslint-config-turbo": "latest"
   },
   "devDependencies": {
