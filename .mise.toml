@@ -1,0 +1,5 @@
+[tools]
+buf = "latest"
+grpcurl = "latest"
+yarn = "1.22.22"
+node = "lts"
