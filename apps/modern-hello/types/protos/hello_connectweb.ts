@@ -25,5 +25,6 @@ export const Greeter = {
       O: HelloReply,
       kind: MethodKind.Unary,
     },
-  },
+  }
 } as const;
+

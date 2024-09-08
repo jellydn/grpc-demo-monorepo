@@ -21,5 +21,6 @@ export const GreetService = {
       O: GreetResponse,
       kind: MethodKind.Unary,
     },
-  },
+  }
 } as const;
+

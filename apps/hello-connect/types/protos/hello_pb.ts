@@ -3,14 +3,7 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-  BinaryReadOptions,
-  FieldList,
-  JsonReadOptions,
-  JsonValue,
-  PartialMessage,
-  PlainMessage,
-} from "@bufbuild/protobuf";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
 import { Message, proto3 } from "@bufbuild/protobuf";
 
 /**
@@ -35,31 +28,19 @@ export class HelloRequest extends Message<HelloRequest> {
     { no: 1, name: "name", kind: "scalar", T: 9 /* ScalarType.STRING */ },
   ]);
 
-  static fromBinary(
-    bytes: Uint8Array,
-    options?: Partial<BinaryReadOptions>,
-  ): HelloRequest {
+  static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): HelloRequest {
     return new HelloRequest().fromBinary(bytes, options);
   }
 
-  static fromJson(
-    jsonValue: JsonValue,
-    options?: Partial<JsonReadOptions>,
-  ): HelloRequest {
+  static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): HelloRequest {
     return new HelloRequest().fromJson(jsonValue, options);
   }
 
-  static fromJsonString(
-    jsonString: string,
-    options?: Partial<JsonReadOptions>,
-  ): HelloRequest {
+  static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): HelloRequest {
     return new HelloRequest().fromJsonString(jsonString, options);
   }
 
-  static equals(
-    a: HelloRequest | PlainMessage<HelloRequest> | undefined,
-    b: HelloRequest | PlainMessage<HelloRequest> | undefined,
-  ): boolean {
+  static equals(a: HelloRequest | PlainMessage<HelloRequest> | undefined, b: HelloRequest | PlainMessage<HelloRequest> | undefined): boolean {
     return proto3.util.equals(HelloRequest, a, b);
   }
 }
@@ -86,31 +67,20 @@ export class HelloReply extends Message<HelloReply> {
     { no: 1, name: "message", kind: "scalar", T: 9 /* ScalarType.STRING */ },
   ]);
 
-  static fromBinary(
-    bytes: Uint8Array,
-    options?: Partial<BinaryReadOptions>,
-  ): HelloReply {
+  static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): HelloReply {
     return new HelloReply().fromBinary(bytes, options);
   }
 
-  static fromJson(
-    jsonValue: JsonValue,
-    options?: Partial<JsonReadOptions>,
-  ): HelloReply {
+  static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): HelloReply {
     return new HelloReply().fromJson(jsonValue, options);
   }
 
-  static fromJsonString(
-    jsonString: string,
-    options?: Partial<JsonReadOptions>,
-  ): HelloReply {
+  static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): HelloReply {
     return new HelloReply().fromJsonString(jsonString, options);
   }
 
-  static equals(
-    a: HelloReply | PlainMessage<HelloReply> | undefined,
-    b: HelloReply | PlainMessage<HelloReply> | undefined,
-  ): boolean {
+  static equals(a: HelloReply | PlainMessage<HelloReply> | undefined, b: HelloReply | PlainMessage<HelloReply> | undefined): boolean {
     return proto3.util.equals(HelloReply, a, b);
   }
 }
+
