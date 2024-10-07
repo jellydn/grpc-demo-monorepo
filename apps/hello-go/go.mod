@@ -9,7 +9,7 @@ require (
 	github.com/bufbuild/connect-go v1.10.0
 	github.com/rs/cors v1.11.1
 	golang.org/x/net v0.30.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 )
 
 require golang.org/x/text v0.19.0 // indirect

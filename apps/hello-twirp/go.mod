@@ -1,10 +1,12 @@
 module hello-twirp
 
-go 1.19
+go 1.21
+
+toolchain go1.23.2
 
 require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 )
 
 require (
