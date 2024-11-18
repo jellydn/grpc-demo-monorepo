@@ -22,7 +22,7 @@
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "concurrently": "9.1.0",
     "eslint-config-custom": "*",
-    "husky": "9.1.6",
+    "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "prettier": "latest",
     "sort-package-json": "2.10.1",
