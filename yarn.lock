@@ -449,7 +449,15 @@
   dependencies:
     levn "^0.4.1"
 
-"@grpc/grpc-js@1.12.2", "@grpc/grpc-js@^1.7.3":
+"@grpc/grpc-js@1.12.3":
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.12.3.tgz#c3d654d722a73cc703a6d19048bc7127721d3213"
+  integrity sha512-iaxAZnANdCwMNpJlyhkI1W1jQZIDZKFNtU2OpQDdgd+pBcU3t7G+PT7svobkW4WSZTdis+CVV6y8KIwu83HDYQ==
+  dependencies:
+    "@grpc/proto-loader" "^0.7.13"
+    "@js-sdsl/ordered-map" "^4.4.2"
+
+"@grpc/grpc-js@^1.7.3":
   version "1.12.2"
   resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.12.2.tgz#97eda82dd49bb9c24eaf6434ea8d7de446e95aac"
   integrity sha512-bgxdZmgTrJZX50OjyVwz3+mNEnCTNkh3cIqGPWVNeW9jX6bn1ZkU80uPd+67/ZpIJIjRQ9qaHCjhavyoWYxumg==
