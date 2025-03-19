@@ -21,6 +21,6 @@
     "@bufbuild/protoc-gen-connect-es": "0.13.0",
     "@bufbuild/protoc-gen-connect-web": "0.11.0",
     "@bufbuild/protoc-gen-es": "1.10.0",
-    "@types/express": "5.0.0"
+    "@types/express": "5.0.1"
   }
 }
