@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@bufbuild/connect-web": "0.13.0",
-    "@grpc/grpc-js": "1.13.3",
+    "@grpc/grpc-js": "1.13.4",
     "next": "15.3.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "7.27.1",
     "@types/node": "22.15.21",
-    "@types/react": "19.1.4",
+    "@types/react": "19.1.5",
     "@types/react-dom": "19.1.5",
     "eslint": "9.27.0",
     "eslint-config-custom": "*",
