@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "5.2.2",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.0",
     "eslint-config-custom": "*",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
