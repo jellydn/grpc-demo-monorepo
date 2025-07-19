@@ -221,6 +221,11 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.10.1.tgz#1d76d15290c0212076c15ede94d15157ba0c6344"
   integrity sha512-wJ8ReQbHxsAfXhrf9ixl0aYbZorRuOWpBNzm8pL8ftmSxQx/wnJD5Eg861NwJU/czy2VXFIebCeZnZrI9rktIQ==
 
+"@bufbuild/protobuf@2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-2.6.1.tgz#6d80aa2c0bf6a493d66609ff1ad84d1a0c15acf5"
+  integrity sha512-DaG6XlyKpz08bmHY5SGX2gfIllaqtDJ/KwVoxsmP22COOLYwDBe7yD3DZGwXem/Xq7QOc9cuR7R3MpAv5CFfDw==
+
 "@bufbuild/protoc-gen-connect-es@0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-connect-es/-/protoc-gen-connect-es-0.13.0.tgz#fde0a1401d21010a14524a110e0bd8531ea83210"
