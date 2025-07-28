@@ -12,8 +12,8 @@
     "@bufbuild/connect-web": "0.13.0",
     "@grpc/grpc-js": "1.13.4",
     "next": "15.4.4",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "react-hot-toast": "2.5.2",
     "ui": "*"
   },
