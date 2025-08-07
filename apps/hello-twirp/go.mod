@@ -6,7 +6,7 @@ toolchain go1.24.6
 
 require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
-	google.golang.org/protobuf v1.36.6
+	google.golang.org/protobuf v1.36.7
 )
 
 require (
