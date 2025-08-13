@@ -2,7 +2,7 @@ module hello-twirp
 
 go 1.22
 
-toolchain go1.24.6
+toolchain go1.25.0
 
 require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
