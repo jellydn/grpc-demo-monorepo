@@ -22,7 +22,7 @@
     "modern-hello": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.28.0",
+    "@babel/core": "7.28.3",
     "@types/node": "22.17.1",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
