@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@types/react": "19.1.11",
-    "@types/react-dom": "19.1.7",
+    "@types/react-dom": "19.1.8",
     "eslint": "9.34.0",
     "eslint-config-custom": "*",
     "react": "19.1.1",
