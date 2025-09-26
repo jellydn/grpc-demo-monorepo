@@ -5,7 +5,7 @@ go 1.24.0
 toolchain go1.25.1
 
 require (
-	connectrpc.com/connect v1.18.1
+	connectrpc.com/connect v1.19.0
 	github.com/bufbuild/connect-go v1.10.0
 	github.com/rs/cors v1.11.1
 	golang.org/x/net v0.44.0
