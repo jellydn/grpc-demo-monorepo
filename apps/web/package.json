@@ -24,8 +24,8 @@
   "devDependencies": {
     "@babel/core": "7.28.4",
     "@types/node": "22.18.8",
-    "@types/react": "19.2.0",
-    "@types/react-dom": "19.2.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
     "eslint": "9.37.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
