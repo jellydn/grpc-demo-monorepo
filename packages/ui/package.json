@@ -8,8 +8,8 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "devDependencies": {
-    "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.2",
+    "@types/react": "19.2.3",
+    "@types/react-dom": "19.2.3",
     "eslint": "9.39.1",
     "eslint-config-custom": "*",
     "react": "19.2.0",
