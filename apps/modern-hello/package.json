@@ -16,7 +16,7 @@
     "@grpc/grpc-js": "1.14.1",
     "cac": "6.7.14",
     "diary": "0.4.5",
-    "express": "5.1.0"
+    "express": "5.2.0"
   },
   "devDependencies": {
     "@bufbuild/protoc-gen-connect-es": "0.13.0",
