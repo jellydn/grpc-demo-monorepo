@@ -15,12 +15,12 @@
     "@bufbuild/protobuf": "1.10.1",
     "cac": "6.7.14",
     "diary": "0.4.5",
-    "express": "5.2.0"
+    "express": "5.2.1"
   },
   "devDependencies": {
     "@bufbuild/protoc-gen-connect-es": "0.13.0",
     "@bufbuild/protoc-gen-connect-web": "0.11.0",
     "@bufbuild/protoc-gen-es": "1.10.1",
-    "@types/express": "5.0.5"
+    "@types/express": "5.0.6"
   }
 }
