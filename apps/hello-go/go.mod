@@ -2,7 +2,7 @@ module hello-go
 
 go 1.24.0
 
-toolchain go1.25.4
+toolchain go1.25.5
 
 require (
 	connectrpc.com/connect v1.19.1
