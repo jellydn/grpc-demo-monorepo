@@ -12,7 +12,7 @@
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.1",
     "eslint-config-custom": "*",
-    "react": "19.2.1",
+    "react": "19.2.3",
     "tsconfig": "*",
     "typescript": "5.9.3"
   }
