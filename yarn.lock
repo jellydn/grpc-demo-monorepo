@@ -1645,7 +1645,7 @@ depd@^2.0.0, depd@~2.0.0:
   resolved "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
 
-detect-indent@^7.0.1:
+detect-indent@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-7.0.2.tgz#16c516bf75d4b2f759f68214554996d467c8d648"
   integrity sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==
@@ -1655,7 +1655,7 @@ detect-libc@^2.1.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.1.2.tgz#689c5dcdc1900ef5583a4cb9f6d7b473742074ad"
   integrity sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==
 
-detect-newline@^4.0.0:
+detect-newline@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-4.0.1.tgz#fcefdb5713e1fb8cb2839b8b6ee22e6716ab8f23"
   integrity sha512-qE3Veg1YXzGHQhlA6jzebZN2qVf6NX+A7m7qlhCGG30dJixrAQhYOsJjsnBjJkCSmuOPpCk30145fr8FV0bzog==
@@ -2428,11 +2428,6 @@ get-proto@^1.0.0, get-proto@^1.0.1:
     dunder-proto "^1.0.1"
     es-object-atoms "^1.0.0"
 
-get-stdin@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-9.0.0.tgz#3983ff82e03d56f1b2ea0d3e60325f39d703a575"
-  integrity sha512-dVKBjfWisLAicarI2Sf+JuBE/DghV4UzNAVe9yhEJuzeREd3JhOTE9cUaJTeSa77fsbQUK3pcOpJfM59+VKZaA==
-
 get-symbol-description@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/get-symbol-description/-/get-symbol-description-1.1.0.tgz#7bdd54e0befe8ffc9f3b4e203220d9f1e881b6ee"
@@ -2449,10 +2444,10 @@ get-tsconfig@^4.10.0, get-tsconfig@^4.7.5:
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
-git-hooks-list@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-3.2.0.tgz#ffe5d5895e29d24f930f9a98dd604b7e407d2f5f"
-  integrity sha512-ZHG9a1gEhUMX1TvGrLdyWb9kDopCBbTnI8z4JgRMYxsijWipgjSEYoPWqBuIB0DnRnvqlQSEeVmzpeuPm7NdFQ==
+git-hooks-list@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/git-hooks-list/-/git-hooks-list-4.1.1.tgz#ae340b82a9312354c73b48007f33840bbd83d3c0"
+  integrity sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==
 
 glob-parent@^5.1.2:
   version "5.1.2"
@@ -3851,24 +3846,23 @@ side-channel@^1.1.0:
     side-channel-map "^1.0.1"
     side-channel-weakmap "^1.0.2"
 
-sort-object-keys@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
-  integrity sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==
+sort-object-keys@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-2.0.1.tgz#9eec95bb9276deb23649d5855b55bf489eca584b"
+  integrity sha512-R89fO+z3x7hiKPXX5P0qim+ge6Y60AjtlW+QQpRozrrNcR1lw9Pkpm5MLB56HoNvdcLHL4wbpq16OcvGpEDJIg==
 
-sort-package-json@2.15.1:
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.15.1.tgz#e5a035fad7da277b1947b9eecc93ea09c1c2526e"
-  integrity sha512-9x9+o8krTT2saA9liI4BljNjwAbvUnWf11Wq+i/iZt8nl2UGYnf3TH5uBydE7VALmP7AGwlfszuEeL8BDyb0YA==
+sort-package-json@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-3.6.0.tgz#6333552770203a712a13e148a6baf06a164cba15"
+  integrity sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ==
   dependencies:
-    detect-indent "^7.0.1"
-    detect-newline "^4.0.0"
-    get-stdin "^9.0.0"
-    git-hooks-list "^3.0.0"
+    detect-indent "^7.0.2"
+    detect-newline "^4.0.1"
+    git-hooks-list "^4.1.1"
     is-plain-obj "^4.1.0"
-    semver "^7.6.0"
-    sort-object-keys "^1.1.3"
-    tinyglobby "^0.2.9"
+    semver "^7.7.3"
+    sort-object-keys "^2.0.1"
+    tinyglobby "^0.2.15"
 
 source-map-js@^1.0.2:
   version "1.2.1"
@@ -4026,7 +4020,7 @@ timers-ext@^0.1.7:
     es5-ext "^0.10.64"
     next-tick "^1.1.0"
 
-tinyglobby@^0.2.13, tinyglobby@^0.2.15, tinyglobby@^0.2.9:
+tinyglobby@^0.2.13, tinyglobby@^0.2.15:
   version "0.2.15"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.15.tgz#e228dd1e638cea993d2fdb4fcd2d4602a79951c2"
   integrity sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==
