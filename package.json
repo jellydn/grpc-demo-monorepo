@@ -19,7 +19,7 @@
     "package.json": "sort-package-json"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "5.2.2",
+    "@trivago/prettier-plugin-sort-imports": "6.0.2",
     "concurrently": "9.2.1",
     "eslint-config-custom": "*",
     "husky": "9.1.7",
