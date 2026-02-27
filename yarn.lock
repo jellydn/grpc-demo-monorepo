@@ -161,10 +161,15 @@
   resolved "https://registry.yarnpkg.com/@bufbuild/connect/-/connect-0.13.0.tgz#97a84a2cac747c7a52d4421a3382d8d165f61c99"
   integrity sha512-eZSMbVLyUFtXiZNORgCEvv580xKZeYQdMOWj2i/nxOcpXQcrEzTMTA7SZzWv4k4gveWCOSRoWmYDeOhfWXJv0g==
 
-"@bufbuild/protobuf@1.10.1", "@bufbuild/protobuf@^1.10.1", "@bufbuild/protobuf@^1.2.1":
+"@bufbuild/protobuf@1.10.1", "@bufbuild/protobuf@^1.2.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-1.10.1.tgz#1d76d15290c0212076c15ede94d15157ba0c6344"
   integrity sha512-wJ8ReQbHxsAfXhrf9ixl0aYbZorRuOWpBNzm8pL8ftmSxQx/wnJD5Eg861NwJU/czy2VXFIebCeZnZrI9rktIQ==
+
+"@bufbuild/protobuf@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protobuf/-/protobuf-2.11.0.tgz#3ec3985c9074b23aea337957225fe15a0e845f8e"
+  integrity sha512-sBXGT13cpmPR5BMgHE6UEEfEaShh5Ror6rfN3yEK5si7QVrtZg8LEPQb0VVhiLRUslD2yLnXtnRzG035J/mZXQ==
 
 "@bufbuild/protoc-gen-connect-es@0.13.0":
   version "0.13.0"
@@ -182,15 +187,24 @@
     "@bufbuild/protobuf" "^1.2.1"
     "@bufbuild/protoplugin" "^1.2.1"
 
-"@bufbuild/protoc-gen-es@1.10.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-1.10.1.tgz#f46f8bcb248c7b768a6ffbc0a8c56a23dfabc38d"
-  integrity sha512-YADugbvibIdZSb0NGf5OF87IyKTuMvMFZ7vMHgm6pL1SCfDwJ/ZRianTdrPG9hq/gOipK+NwHmXBViyS3J7nxA==
+"@bufbuild/protoc-gen-es@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoc-gen-es/-/protoc-gen-es-2.11.0.tgz#5ef56f79bf91d6e4b03648533ce7b383034f46d0"
+  integrity sha512-VzQuwEQDXipbZ1soWUuAWm1Z0C3B/IDWGeysnbX6ogJ6As91C2mdvAND/ekQ4YIWgen4d5nqLfIBOWLqCCjYUA==
   dependencies:
-    "@bufbuild/protobuf" "^1.10.1"
-    "@bufbuild/protoplugin" "1.10.1"
+    "@bufbuild/protobuf" "2.11.0"
+    "@bufbuild/protoplugin" "2.11.0"
 
-"@bufbuild/protoplugin@1.10.1", "@bufbuild/protoplugin@^1.2.1":
+"@bufbuild/protoplugin@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-2.11.0.tgz#7e8b4e79dc5623775402a1e13cc1c9c9d22c0c92"
+  integrity sha512-lyZVNFUHArIOt4W0+dwYBe5GBwbKzbOy8ObaloEqsw9Mmiwv2O48TwddDoHN4itylC+BaEGqFdI1W8WQt2vWJQ==
+  dependencies:
+    "@bufbuild/protobuf" "2.11.0"
+    "@typescript/vfs" "^1.6.2"
+    typescript "5.4.5"
+
+"@bufbuild/protoplugin@^1.2.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@bufbuild/protoplugin/-/protoplugin-1.10.1.tgz#1d7fdf4aa7aa8a960f4a80e107bb9debb2c6c480"
   integrity sha512-LaSbfwabAFIvbVnbn8jWwElRoffCIxhVraO8arliVwWupWezHLXgqPHEYLXZY/SsAR+/YsFBQJa8tAGtNPJyaQ==
@@ -1065,7 +1079,7 @@
     "@typescript-eslint/types" "8.56.0"
     eslint-visitor-keys "^5.0.0"
 
-"@typescript/vfs@^1.4.0":
+"@typescript/vfs@^1.4.0", "@typescript/vfs@^1.6.2":
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/@typescript/vfs/-/vfs-1.6.4.tgz#7543a3bd961727eb51c8bdafc3ed5e0fb5f56dff"
   integrity sha512-PJFXFS4ZJKiJ9Qiuix6Dz/OwEIqHD7Dme1UwZhTK11vR+5dqW2ACbdndWQexBzCx+CPuMe5WBYQWCsFyGlQLlQ==
@@ -4221,6 +4235,11 @@ typescript@4.5.2:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
   integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
+
+typescript@5.4.5:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
+  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
 
 typescript@5.9.3:
   version "5.9.3"
