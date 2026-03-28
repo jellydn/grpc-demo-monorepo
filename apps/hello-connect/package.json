@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@bufbuild/connect-node": "0.13.0",
-    "@bufbuild/protobuf": "1.10.1",
+    "@bufbuild/protobuf": "2.11.0",
     "cac": "6.7.14",
     "diary": "0.4.5",
     "express": "5.2.1"
