@@ -14,7 +14,7 @@
     "@bufbuild/connect-web": "0.13.0",
     "@bufbuild/protobuf": "1.10.1",
     "@grpc/grpc-js": "1.14.3",
-    "cac": "6.7.14",
+    "cac": "7.0.0",
     "diary": "0.4.5",
     "express": "5.2.1"
   },
