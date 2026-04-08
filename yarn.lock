@@ -3200,12 +3200,10 @@ ms@^2.1.1, ms@^2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-nano-staged@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/nano-staged/-/nano-staged-0.9.0.tgz#4d957f3a40470d82dd26ecd739da9d8838a2b20b"
-  integrity sha512-0JfyX4i0Vp5HhC9RDtJ1kp7psz8CFuS3Gya3Z6WZv//QCwA9dPzi1S803VdR0c0P6R7sSvweZ5mSJmYQ/N+loQ==
-  dependencies:
-    picocolors "^1.0.0"
+nano-staged@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/nano-staged/-/nano-staged-1.0.2.tgz#66e5662fe67e0a1d1bfda091579e4d89e27143b0"
+  integrity sha512-Fytar3zHLY99nlMfqPPbraxZodqQAHPpdPRyYaplL+lB9DCR6pUrafxbG+Btz4+7fO5Rm/+DO4ZeDO/nLSUMhw==
 
 nanoid@^3.3.6:
   version "3.3.11"
