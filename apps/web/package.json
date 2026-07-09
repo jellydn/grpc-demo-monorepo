@@ -11,7 +11,7 @@
   "dependencies": {
     "@bufbuild/connect-web": "0.13.0",
     "@grpc/grpc-js": "1.14.4",
-    "next": "15.5.19",
+    "next": "15.5.20",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-hot-toast": "2.6.0",
@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.29.7",
-    "@types/node": "22.19.19",
-    "@types/react": "19.2.16",
+    "@types/node": "22.20.1",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.4",
     "eslint-config-custom": "*",
